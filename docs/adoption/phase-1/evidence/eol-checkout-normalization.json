@@ -1,0 +1,26 @@
+[
+  {
+    "path": "crates/chimera/src/phonetics/consonantTargets.generated.json",
+    "before_bytes": 2094,
+    "after_bytes": 1907,
+    "canonical_sha256": "aac1d0868d0af07e39e482a05c1e27f0bb628d5640e54231aeede162d0a8f17d"
+  },
+  {
+    "path": "crates/chimera/src/phonetics/ipaNfc.generated.json",
+    "before_bytes": 11336,
+    "after_bytes": 11335,
+    "canonical_sha256": "ce9003b078b588e9142a9d5b5896787d8efaa7432818c2612ccc7478d39e1b98"
+  },
+  {
+    "path": "crates/chimera/src/phonetics/vowelTargets.generated.json",
+    "before_bytes": 28017,
+    "after_bytes": 25987,
+    "canonical_sha256": "975ab3fec65772b6c232fea732808147390e0da9d6240dbffdea4b97a557235d"
+  },
+  {
+    "path": "crates/chimera/src/sources/syrinxTable.generated.json",
+    "before_bytes": 3560,
+    "after_bytes": 3560,
+    "canonical_sha256": "ea1d6c66f5b0f608db27672aed9ec920fa6aec7de92d7392c42ce40718a44841"
+  }
+]

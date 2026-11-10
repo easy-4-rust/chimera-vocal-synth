@@ -1,0 +1,18 @@
+[
+    {
+        "command":  "bun run test",
+        "started_at_utc":  "2026-11-10T18:29:00.6017633Z",
+        "ended_at_utc":  "2026-11-10T18:30:24.8223311Z",
+        "exit_code":  101
+    },
+    {
+        "command":  "bun run typecheck",
+        "started_at_utc":  "2026-11-10T18:30:24.8543888Z",
+        "ended_at_utc":  "2026-11-10T18:30:25.5147670Z",
+        "exit_code":  0
+    },
+    {
+        "exit_code":  0,
+        "command":  "cargo metadata --locked --format-version=1"
+    }
+]

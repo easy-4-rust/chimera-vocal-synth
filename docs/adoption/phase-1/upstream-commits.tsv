@@ -1,0 +1,20 @@
+sha	author_date	subject
+60fe7e68c0c1bc1f029f409f57c2ca19bbdb4dd2	2026-11-07T21:56:01Z	render text goes through render::say, so another judge can measure exactly what the speech judge hears
+b1a8e9406aafe45d1da4bf5526deffa03f470cae	2026-11-07T21:56:01Z	TSP speech data for a real-voice judge: fetch, a pinned aligner, and a reproducible alignment of 1374 recordings
+17fd0c276f0f776e84cd597402a84943cb4dfbd2	2026-11-07T21:56:01Z	chimera compare tsp: the synth's speech against 23 real speakers, phone by phone
+d6d251978b6e33d377d66bdfd4434405211e88f6	2026-11-07T21:56:01Z	Docs: the speech judge against real voices, its baseline, and what batches 1 and 2 did on it
+e939cf733f7bbaed9e5698a242b1161dc9580679	2026-11-07T22:03:49Z	compare tsp review fixes: a missing measurement has no cost, and the verdict checks the recording set and the aligner
+e2e7622b446dffb1d36649a723f5be32715a518e	2026-11-08T20:13:09Z	Vercel: skip deploys on t3/** branches and cache hashed assets as immutable (they revalidated on every visit)
+3e224215087e153ea9d1d8620214fa7374033d30	2026-11-08T10:36:15-08:00	more contrast
+092b16ce12b927d473c884ca2dfae53ce1b995df	2026-11-08T21:22:59Z	Contrast follow-up: drop twice-drawn canvas labels and the dead nested CSS; selected text no longer dimmer than unselected
+689faa249d2740199149eba7a01cafaedbec0ef8	2026-11-08T11:38:52+09:00	tools: musicxml-to-notes, a score part to a render-notes melody
+c585dc0b8aa96d0abf39e6a3beed310144ceeb73	2026-11-08T11:58:42+09:00	musicxml-to-notes: one message per word whatever its case, and a test
+c24945a34296f1cd06c029fd283c43b2a0cc2c26	2026-11-09T09:48:41+09:00	musicxml-to-notes: read attributes in any order, so endings aren't lost
+eed4a5ff2695ad151df2210d012b2a4ab584f099	2026-11-09T10:09:53+03:00	Layout lint: draw WebGL through Metal on a Mac instead of SwiftShader (16x the CPU, stalls the machine)
+dec4847047ae8f6a705aaca4fe0dfae311e0f53d	2026-11-10T13:36:21Z	Docs: README Vision & scope, an AGENTS rule to weigh features against it
+186b75a1a8cf22017f68cd8acac8015d29cbf437	2026-11-10T13:53:33Z	Voice oversampling keeps the airway above 60 kHz: a 16 kHz (Bluetooth headset) context went NaN, silent with no error
+d32c2adcf37e195673e772d124e08225cba3923e	2026-11-10T14:16:41Z	Sing: a demo song gives your own lyrics back when it ends (it replaced them for good)
+b133d517058293cbec3133cdc1d4b0df8208575c	2026-11-10T14:19:28Z	Tabs: Play's Whisper and Beatbox's ready pose stay in their tab (they leaked into the others)
+82f594f4ec02dc0ca527063f2c6ff404a8d286af	2026-11-10T14:24:55Z	Keys: Z and X move the on-screen keyboard at once (it waited for the next note)
+d2d134948de165fdb25fb450a5b6975242e9daf8	2026-11-10T14:24:55Z	The web app opens on Sing (it opened on Play); the dictionary loads with the Sing panel
+d361a82ce1b18d0ac19001aab19169ff2c1eb9e8	2026-11-10T18:09:48Z	Docs: references and credits for the voice model (the docs cited no sources, #63)

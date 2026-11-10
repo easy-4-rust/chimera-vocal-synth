@@ -1,0 +1,30 @@
+{
+  "baseline": "5ab44de236b0eb384ec4d81ec216e0d0928a9f7a",
+  "files": 244,
+  "all_blobs_have_sha256": true,
+  "font_copies": [
+    {
+      "public": "public/fonts/AVHersheySimplexLight.otf",
+      "documentation_copy": "docs/mockups/gen/fonts/AVHersheySimplexLight.otf",
+      "sha256": "e20a7cbafa2f84cb21cbeec109b488d00c9bb588f0e526011dd0a35336664cfd",
+      "identical": true
+    },
+    {
+      "public": "public/fonts/AVHersheySimplexMedium.otf",
+      "documentation_copy": "docs/mockups/gen/fonts/AVHersheySimplexMedium.otf",
+      "sha256": "919ae9cf082647290104861d305390268b55933c9fd8929fb852143377fbf7ea",
+      "identical": true
+    }
+  ],
+  "ignored_paths": [
+    ".gitignore:1:node_modules\tnode_modules/probe",
+    ".gitignore:2:dist\tdist/probe",
+    ".gitignore:3:out\tout/probe",
+    ".gitignore:6:target/\ttarget/probe",
+    ".gitignore:7:src/wasm/chimera.wasm\tsrc/wasm/chimera.wasm",
+    ".gitignore:4:*.wav\tprobe.wav",
+    ".gitignore:10:public/shows/\tpublic/shows/probe.json"
+  ],
+  "tracked_restricted_audio": [],
+  "tracked_secret_name_candidates": []
+}

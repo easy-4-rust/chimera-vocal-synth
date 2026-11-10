@@ -1,0 +1,78 @@
+{
+  "baseline": "5ab44de236b0eb384ec4d81ec216e0d0928a9f7a",
+  "package": {
+    "name": "chimera-voice",
+    "private": true,
+    "version": "0.1.0",
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+      "dev": "bun run wasm && vite --host 127.0.0.1",
+      "build": "bun run wasm && tsc --noEmit && vite build",
+      "preview": "vite preview --host 127.0.0.1",
+      "test": "bun run wasm && cargo test --workspace && bun test tests",
+      "typecheck": "tsc --noEmit",
+      "lint:layout": "bun run wasm && bun tools/layout-lint.ts",
+      "wasm": "cargo build -p chimera-wasm --release --target wasm32-unknown-unknown && cp target/wasm32-unknown-unknown/release/chimera_wasm.wasm src/wasm/chimera.wasm"
+    },
+    "dependencies": {
+      "react": "19.3.1",
+      "react-dom": "19.3.1",
+      "three": "0.186.1",
+      "zustand": "5.0.16"
+    },
+    "devDependencies": {
+      "@types/bun": "1.4.4",
+      "@types/react": "19.3.0",
+      "@types/react-dom": "19.3.0",
+      "@types/three": "0.186.0",
+      "@vitejs/plugin-react": "6.2.1",
+      "playwright-core": "1.64.1",
+      "typescript": "7.0.2",
+      "vite": "8.3.6"
+    }
+  },
+  "lockfiles": [
+    "bun.lock"
+  ],
+  "build_inputs": [
+    "index.html",
+    "src/wasm/chimera.ts",
+    "src/wasm/engine.ts",
+    "src/wasm/types.ts",
+    "src/wasm/wasm.d.ts",
+    "src/wasm/wire.ts",
+    "src/worklet/processor.ts",
+    "src/worklet/protocol.ts",
+    "tsconfig.json",
+    "vercel.json",
+    "vite.config.ts"
+  ],
+  "tests_and_tools": [
+    "tests/creature-abi.test.ts",
+    "tests/expression.test.ts",
+    "tests/harness.ts",
+    "tests/live-control.test.ts",
+    "tests/petting.test.ts",
+    "tests/singing-live.test.ts",
+    "tests/tele.test.ts",
+    "tests/transport.test.ts",
+    "tests/wasm-engine.test.ts",
+    "tests/words.test.ts",
+    "tools/asr/sentences.tsv",
+    "tools/asr/setup.sh",
+    "tools/asr/speech_wer.py",
+    "tools/bench-wasm.ts",
+    "tools/build-dict.ts",
+    "tools/e2e.ts",
+    "tools/fetch-csd.sh",
+    "tools/gen-ipa-nfc.ts",
+    "tools/gen-syrinx-table.ts",
+    "tools/layout-lint.ts",
+    "tools/lib/fft.ts",
+    "tools/lib/image.ts",
+    "tools/lib/spectrogram.ts",
+    "tools/lib/wav.ts",
+    "tools/spectrogram.ts"
+  ]
+}

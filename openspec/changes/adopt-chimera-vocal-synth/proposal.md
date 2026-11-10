@@ -2,7 +2,7 @@
 
 ## Status
 
-Proposed. No implementation or validation task is complete merely by creating this change.
+In progress. WP-01 and WP-02 have evidence-backed completion recorded in [the adoption ledger](../../../docs/adoption/phase-1/task-evidence.md). Product acceptance and release readiness remain open. No task is complete merely because this change exists; see [remaining risks](../../../docs/adoption/phase-1/risk-register.md).
 
 ## Why
 
@@ -17,7 +17,7 @@ The upstream project is technically distinctive because it models vocal producti
 - Adoption baseline: `5ab44de236b0eb384ec4d81ec216e0d0928a9f7a`
 - Upstream branch at baseline: `main`
 - Fork branch at baseline: `main`
-- Fork and upstream commit were observed equal when this plan was prepared. Reconfirm before implementation.
+- Fork and upstream were equal when the plan was prepared. During adoption, upstream was observed at `d361a82ce1b18d0ac19001aab19169ff2c1eb9e8` (19 upstream-only commits). The frozen product baseline remains unchanged; those commits were not merged. See [baseline evidence](../../../UPSTREAM_BASELINE.md).
 
 ## What changes
 

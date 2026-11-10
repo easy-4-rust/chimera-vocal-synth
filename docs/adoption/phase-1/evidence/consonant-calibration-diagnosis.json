@@ -1,0 +1,11 @@
+{
+  "generated_exists": true,
+  "checkout_bytes": 2094,
+  "generated_bytes": 1907,
+  "git_blob_bytes": 1907,
+  "checkout_crlf": 187,
+  "generated_crlf": 0,
+  "generated_equals_git_blob": true,
+  "equal_after_newline_normalization": true,
+  "json_semantically_equal": true
+}

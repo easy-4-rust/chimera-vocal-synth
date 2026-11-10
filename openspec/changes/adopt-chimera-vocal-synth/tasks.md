@@ -1,33 +1,37 @@
 # Tasks: Adopt Chimera Vocal Synth
 
-All tasks begin unchecked. Do not mark a task complete until its evidence is recorded. Use the status labels VERIFIED, STATIC_REVIEW, NOT_RUN, or BLOCKED in the relevant validation report.
+## Current execution evidence
+
+WP-01 and WP-02 (T001–T019) are complete within their repository-governance and asset-inventory scope. See [task evidence](../../../docs/adoption/phase-1/task-evidence.md), [validation results](../../../docs/adoption/phase-1/verification.md), and [remaining risks](../../../docs/adoption/phase-1/risk-register.md). Runtime acceptance, upstream updates, and release readiness remain open. The 19 newly observed upstream commits have not been merged.
+
+Tasks are checked only after their task-specific evidence is recorded. A completed governance or inventory task is not evidence of full runtime acceptance. Use the status labels VERIFIED, STATIC_REVIEW, NOT_RUN, or BLOCKED in the relevant validation report.
 
 ## WP-01 — Repository and upstream management
 
-- [ ] T001 Verify the GitHub repository parent points to `jamesondh/chimera-vocal-synth`.
-- [ ] T002 Verify default branch, visibility, permissions, and branch protection for the Easy-4-Rust Fork.
-- [ ] T003 Record upstream and fork baseline SHAs and confirm common ancestry.
-- [ ] T004 Configure and verify local `origin` and `upstream` remotes.
-- [ ] T005 Create `integration/phase-1` from the verified adoption baseline.
-- [ ] T006 Document the fetch/merge/push procedure for upstream synchronization.
-- [ ] T007 Document feature/fix branch and pull-request rules for Easy-4-Rust changes.
-- [ ] T008 Create an upstream commit ledger recording inherited and local commits.
-- [ ] T009 Document conflict resolution, rollback, and sync verification procedures.
+- [x] T001 Verify the GitHub repository parent points to `jamesondh/chimera-vocal-synth`.
+- [x] T002 Verify default branch, visibility, permissions, and branch protection for the Easy-4-Rust Fork.
+- [x] T003 Record upstream and fork baseline SHAs and confirm common ancestry.
+- [x] T004 Configure and verify local `origin` and `upstream` remotes.
+- [x] T005 Create `integration/phase-1` from the verified adoption baseline.
+- [x] T006 Document the fetch/merge/push procedure for upstream synchronization.
+- [x] T007 Document feature/fix branch and pull-request rules for Easy-4-Rust changes.
+- [x] T008 Create an upstream commit ledger recording inherited and local commits.
+- [x] T009 Document conflict resolution, rollback, and sync verification procedures.
 
 **WP-01 exit criteria:** Fork parent and shared history are verified; branch and remote topology is reproducible; no upstream history is rewritten.
 
 ## WP-02 — Source asset and license audit
 
-- [ ] T010 Generate a complete tracked-file inventory at the pinned baseline.
-- [ ] T011 Inventory all Cargo workspace members, targets, examples, benches, and build scripts.
-- [ ] T012 Inventory Bun scripts, dependencies, lockfiles, Vite configuration, and browser build inputs.
-- [ ] T013 Verify the upstream MIT license and preserve its attribution and notice.
-- [ ] T014 Verify the CMU Pronouncing Dictionary license and the bundled notice.
-- [ ] T015 Inventory bundled fonts and verify each font's redistribution license.
-- [ ] T016 Inventory audio, image, fixture, and evaluation data; record provenance and restrictions.
-- [ ] T017 Review `.gitignore` and identify generated, local-only, large, or sensitive files.
-- [ ] T018 Produce a third-party NOTICE/license inventory without replacing upstream notices.
-- [ ] T019 Record the adoption baseline, source URLs, file inventory checksum, and all asset dispositions.
+- [x] T010 Generate a complete tracked-file inventory at the pinned baseline.
+- [x] T011 Inventory all Cargo workspace members, targets, examples, benches, and build scripts.
+- [x] T012 Inventory Bun scripts, dependencies, lockfiles, Vite configuration, and browser build inputs.
+- [x] T013 Verify the upstream MIT license and preserve its attribution and notice.
+- [x] T014 Verify the CMU Pronouncing Dictionary license and the bundled notice.
+- [x] T015 Inventory bundled fonts and verify each font's redistribution license.
+- [x] T016 Inventory audio, image, fixture, and evaluation data; record provenance and restrictions.
+- [x] T017 Review `.gitignore` and identify generated, local-only, large, or sensitive files.
+- [x] T018 Produce a third-party NOTICE/license inventory without replacing upstream notices.
+- [x] T019 Record the adoption baseline, source URLs, file inventory checksum, and all asset dispositions.
 
 **WP-02 exit criteria:** Every tracked asset is accounted for; no restricted dataset or unlicensed asset is added; all notices remain available.
 

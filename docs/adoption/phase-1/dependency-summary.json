@@ -1,0 +1,9 @@
+{
+  "rust_package_records": 26,
+  "rust_external_packages": 23,
+  "rust_declared_licenses_missing": [],
+  "web_locked_packages": 82,
+  "web_license_declarations_known": 82,
+  "web_unresolved": [],
+  "registry_errors": {}
+}

@@ -1,0 +1,1666 @@
+{
+  "baseline": "5ab44de236b0eb384ec4d81ec216e0d0928a9f7a",
+  "method": "Cargo locked metadata; exact-version installed Bun manifests; optional packages checked against npm registry exact-version metadata with lock integrity equality. License declarations only; no optional binary downloads or legal/security certification.",
+  "rust_packages": [
+    {
+      "name": "adler2",
+      "version": "2.0.1",
+      "license": "0BSD OR MIT OR Apache-2.0",
+      "license_file": null,
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "repository": "https://github.com/oyvindln/adler2"
+    },
+    {
+      "name": "cfg-if",
+      "version": "1.0.5",
+      "license": "MIT OR Apache-2.0",
+      "license_file": null,
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "repository": "https://github.com/rust-lang/cfg-if"
+    },
+    {
+      "name": "chimera",
+      "version": "0.1.0",
+      "license": "MIT",
+      "license_file": null,
+      "source": null,
+      "repository": null
+    },
+    {
+      "name": "chimera-cli",
+      "version": "0.1.0",
+      "license": "MIT",
+      "license_file": null,
+      "source": null,
+      "repository": null
+    },
+    {
+      "name": "chimera-wasm",
+      "version": "0.1.0",
+      "license": "MIT",
+      "license_file": null,
+      "source": null,
+      "repository": null
+    },
+    {
+      "name": "crc32fast",
+      "version": "1.5.4",
+      "license": "MIT OR Apache-2.0",
+      "license_file": null,
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "repository": "https://github.com/srijs/rust-crc32fast"
+    },
+    {
+      "name": "equivalent",
+      "version": "1.0.3",
+      "license": "Apache-2.0 OR MIT",
+      "license_file": null,
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "repository": "https://github.com/indexmap-rs/equivalent"
+    },
+    {
+      "name": "flate2",
+      "version": "1.1.10",
+      "license": "MIT OR Apache-2.0",
+      "license_file": null,
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "repository": "https://github.com/rust-lang/flate2-rs"
+    },
+    {
+      "name": "foldhash",
+      "version": "0.2.0",
+      "license": "Zlib",
+      "license_file": null,
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "repository": "https://github.com/orlp/foldhash"
+    },
+    {
+      "name": "hashbrown",
+      "version": "0.17.1",
+      "license": "MIT OR Apache-2.0",
+      "license_file": null,
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "repository": "https://github.com/rust-lang/hashbrown"
+    },
+    {
+      "name": "indexmap",
+      "version": "2.14.2",
+      "license": "Apache-2.0 OR MIT",
+      "license_file": null,
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "repository": "https://github.com/indexmap-rs/indexmap"
+    },
+    {
+      "name": "itoa",
+      "version": "1.0.18",
+      "license": "MIT OR Apache-2.0",
+      "license_file": null,
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "repository": "https://github.com/dtolnay/itoa"
+    },
+    {
+      "name": "libm",
+      "version": "0.2.16",
+      "license": "MIT",
+      "license_file": null,
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "repository": "https://github.com/rust-lang/compiler-builtins"
+    },
+    {
+      "name": "memchr",
+      "version": "2.8.3",
+      "license": "Unlicense OR MIT",
+      "license_file": null,
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "repository": "https://github.com/BurntSushi/memchr"
+    },
+    {
+      "name": "miniz_oxide",
+      "version": "0.9.1",
+      "license": "MIT OR Zlib OR Apache-2.0",
+      "license_file": null,
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "repository": "https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide"
+    },
+    {
+      "name": "proc-macro2",
+      "version": "1.0.107",
+      "license": "MIT OR Apache-2.0",
+      "license_file": null,
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "repository": "https://github.com/dtolnay/proc-macro2"
+    },
+    {
+      "name": "quote",
+      "version": "1.0.47",
+      "license": "MIT OR Apache-2.0",
+      "license_file": null,
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "repository": "https://github.com/dtolnay/quote"
+    },
+    {
+      "name": "serde",
+      "version": "1.0.229",
+      "license": "MIT OR Apache-2.0",
+      "license_file": null,
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "repository": "https://github.com/serde-rs/serde"
+    },
+    {
+      "name": "serde_core",
+      "version": "1.0.229",
+      "license": "MIT OR Apache-2.0",
+      "license_file": null,
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "repository": "https://github.com/serde-rs/serde"
+    },
+    {
+      "name": "serde_derive",
+      "version": "1.0.229",
+      "license": "MIT OR Apache-2.0",
+      "license_file": null,
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "repository": "https://github.com/serde-rs/serde"
+    },
+    {
+      "name": "serde_json",
+      "version": "1.0.154",
+      "license": "MIT OR Apache-2.0",
+      "license_file": null,
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "repository": "https://github.com/serde-rs/json"
+    },
+    {
+      "name": "simd-adler32",
+      "version": "0.3.10",
+      "license": "MIT",
+      "license_file": null,
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "repository": "https://github.com/mcountryman/simd-adler32"
+    },
+    {
+      "name": "syn",
+      "version": "3.0.9",
+      "license": "MIT OR Apache-2.0",
+      "license_file": null,
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "repository": "https://github.com/dtolnay/syn"
+    },
+    {
+      "name": "unicode-ident",
+      "version": "1.0.27",
+      "license": "(MIT OR Apache-2.0) AND Unicode-3.0",
+      "license_file": null,
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "repository": "https://github.com/dtolnay/unicode-ident"
+    },
+    {
+      "name": "zlib-rs",
+      "version": "0.6.8",
+      "license": "Zlib",
+      "license_file": null,
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "repository": "https://github.com/trifectatechfoundation/zlib-rs"
+    },
+    {
+      "name": "zmij",
+      "version": "1.0.23",
+      "license": "MIT",
+      "license_file": null,
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "repository": "https://github.com/dtolnay/zmij"
+    }
+  ],
+  "web_locked_packages": [
+    {
+      "lock_key": "@dimforge/rapier3d-compat",
+      "name": "@dimforge/rapier3d-compat",
+      "version": "0.12.0",
+      "integrity": "sha512-uekIGetywIgopfD97oDL5PfeezkFpNhwlzlaEYNOA0N6ghdsOvh/HYjSMek5Q2O1PYvRSDFcqFVJl4r4ZBwOow==",
+      "license": "Apache-2.0",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dimforge/rapier.js"
+      }
+    },
+    {
+      "lock_key": "@oxc-project/types",
+      "name": "@oxc-project/types",
+      "version": "0.156.0",
+      "integrity": "sha512-1Duyg48TdJNdyhEB8Xn1L36bT9Pv6GUtlKjHxOys8xkaF/rQq3XJE+bAurSK/AgIz5mGFsb77cn9Pb20+WCScw==",
+      "license": "MIT",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/oxc-project/oxc.git",
+        "directory": "npm/oxc-types"
+      }
+    },
+    {
+      "lock_key": "@rolldown/binding-android-arm-eabi",
+      "name": "@rolldown/binding-android-arm-eabi",
+      "version": "1.2.16",
+      "integrity": "sha512-ia3DwAs0OsMGS7+IConptSiyk9pEXkOx/AbJ2n/lAGxH3QkWQus1t8d7gnAT38FCU2sQu8lUbeR6AiZFv4JxaA==",
+      "license": "MIT",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/%40rolldown%2Fbinding-android-arm-eabi/1.2.16",
+        "identity_and_integrity_match": true,
+        "license": "MIT",
+        "repository": {
+          "url": "git+https://github.com/rolldown/rolldown.git",
+          "type": "git",
+          "directory": "packages/rolldown"
+        },
+        "dist_integrity": "sha512-ia3DwAs0OsMGS7+IConptSiyk9pEXkOx/AbJ2n/lAGxH3QkWQus1t8d7gnAT38FCU2sQu8lUbeR6AiZFv4JxaA=="
+      },
+      "repository": {
+        "url": "git+https://github.com/rolldown/rolldown.git",
+        "type": "git",
+        "directory": "packages/rolldown"
+      }
+    },
+    {
+      "lock_key": "@rolldown/binding-android-arm64",
+      "name": "@rolldown/binding-android-arm64",
+      "version": "1.2.16",
+      "integrity": "sha512-kx5wBiMB6E7TEvpl2B9gjLU004BkvEm2Dr941BFjx/SontPwSzNuQUIoVKxHHoSjpFIfHMmcguyLOtyn0hObRg==",
+      "license": "MIT",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/%40rolldown%2Fbinding-android-arm64/1.2.16",
+        "identity_and_integrity_match": true,
+        "license": "MIT",
+        "repository": {
+          "url": "git+https://github.com/rolldown/rolldown.git",
+          "type": "git",
+          "directory": "packages/rolldown"
+        },
+        "dist_integrity": "sha512-kx5wBiMB6E7TEvpl2B9gjLU004BkvEm2Dr941BFjx/SontPwSzNuQUIoVKxHHoSjpFIfHMmcguyLOtyn0hObRg=="
+      },
+      "repository": {
+        "url": "git+https://github.com/rolldown/rolldown.git",
+        "type": "git",
+        "directory": "packages/rolldown"
+      }
+    },
+    {
+      "lock_key": "@rolldown/binding-darwin-arm64",
+      "name": "@rolldown/binding-darwin-arm64",
+      "version": "1.2.16",
+      "integrity": "sha512-qslZrXnKJU4cUpjoAmtAo/KQM9e2IRMlmpig6Zpwj+8KWxW8v+nkAf9216Bsek9lOC1jvg2yCjygCFo2f83msQ==",
+      "license": "MIT",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/%40rolldown%2Fbinding-darwin-arm64/1.2.16",
+        "identity_and_integrity_match": true,
+        "license": "MIT",
+        "repository": {
+          "url": "git+https://github.com/rolldown/rolldown.git",
+          "type": "git",
+          "directory": "packages/rolldown"
+        },
+        "dist_integrity": "sha512-qslZrXnKJU4cUpjoAmtAo/KQM9e2IRMlmpig6Zpwj+8KWxW8v+nkAf9216Bsek9lOC1jvg2yCjygCFo2f83msQ=="
+      },
+      "repository": {
+        "url": "git+https://github.com/rolldown/rolldown.git",
+        "type": "git",
+        "directory": "packages/rolldown"
+      }
+    },
+    {
+      "lock_key": "@rolldown/binding-darwin-x64",
+      "name": "@rolldown/binding-darwin-x64",
+      "version": "1.2.16",
+      "integrity": "sha512-FdF+y48ND13eAyM2mQn+85kvAqNlvRWROy2rhgA463X/0Gv4vGtazZtfaF1mRBLscYvtOlh4QnLjOWiFzX69OQ==",
+      "license": "MIT",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/%40rolldown%2Fbinding-darwin-x64/1.2.16",
+        "identity_and_integrity_match": true,
+        "license": "MIT",
+        "repository": {
+          "url": "git+https://github.com/rolldown/rolldown.git",
+          "type": "git",
+          "directory": "packages/rolldown"
+        },
+        "dist_integrity": "sha512-FdF+y48ND13eAyM2mQn+85kvAqNlvRWROy2rhgA463X/0Gv4vGtazZtfaF1mRBLscYvtOlh4QnLjOWiFzX69OQ=="
+      },
+      "repository": {
+        "url": "git+https://github.com/rolldown/rolldown.git",
+        "type": "git",
+        "directory": "packages/rolldown"
+      }
+    },
+    {
+      "lock_key": "@rolldown/binding-freebsd-x64",
+      "name": "@rolldown/binding-freebsd-x64",
+      "version": "1.2.16",
+      "integrity": "sha512-ddjqFM5e95AgLbUPtKIS7V1KTVlA0RUgCVr5mn+/IEhsdy3pr+Vuj/HZ7nlMN2FyxIwUktOH1LEPIQXO1v9y1Q==",
+      "license": "MIT",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/%40rolldown%2Fbinding-freebsd-x64/1.2.16",
+        "identity_and_integrity_match": true,
+        "license": "MIT",
+        "repository": {
+          "url": "git+https://github.com/rolldown/rolldown.git",
+          "type": "git",
+          "directory": "packages/rolldown"
+        },
+        "dist_integrity": "sha512-ddjqFM5e95AgLbUPtKIS7V1KTVlA0RUgCVr5mn+/IEhsdy3pr+Vuj/HZ7nlMN2FyxIwUktOH1LEPIQXO1v9y1Q=="
+      },
+      "repository": {
+        "url": "git+https://github.com/rolldown/rolldown.git",
+        "type": "git",
+        "directory": "packages/rolldown"
+      }
+    },
+    {
+      "lock_key": "@rolldown/binding-linux-arm-gnueabihf",
+      "name": "@rolldown/binding-linux-arm-gnueabihf",
+      "version": "1.2.16",
+      "integrity": "sha512-tHdKWbFkFBI687iim3LIyIvyL7j66VvQYkDPss5Stn/qyE2tWkR1YD0dXmXPFKKqT/o5ZEJVsaRsWS2meQwGOA==",
+      "license": "MIT",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/%40rolldown%2Fbinding-linux-arm-gnueabihf/1.2.16",
+        "identity_and_integrity_match": true,
+        "license": "MIT",
+        "repository": {
+          "url": "git+https://github.com/rolldown/rolldown.git",
+          "type": "git",
+          "directory": "packages/rolldown"
+        },
+        "dist_integrity": "sha512-tHdKWbFkFBI687iim3LIyIvyL7j66VvQYkDPss5Stn/qyE2tWkR1YD0dXmXPFKKqT/o5ZEJVsaRsWS2meQwGOA=="
+      },
+      "repository": {
+        "url": "git+https://github.com/rolldown/rolldown.git",
+        "type": "git",
+        "directory": "packages/rolldown"
+      }
+    },
+    {
+      "lock_key": "@rolldown/binding-linux-arm64-gnu",
+      "name": "@rolldown/binding-linux-arm64-gnu",
+      "version": "1.2.16",
+      "integrity": "sha512-FJiLGAblPBMlBEdbOqw6kW6QcXDWAf/oJu7gYs9ZJZwmg+K+/zjFLxPTIY9izJUzxzc24FHvmseyA0IvJSl17w==",
+      "license": "MIT",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/%40rolldown%2Fbinding-linux-arm64-gnu/1.2.16",
+        "identity_and_integrity_match": true,
+        "license": "MIT",
+        "repository": {
+          "url": "git+https://github.com/rolldown/rolldown.git",
+          "type": "git",
+          "directory": "packages/rolldown"
+        },
+        "dist_integrity": "sha512-FJiLGAblPBMlBEdbOqw6kW6QcXDWAf/oJu7gYs9ZJZwmg+K+/zjFLxPTIY9izJUzxzc24FHvmseyA0IvJSl17w=="
+      },
+      "repository": {
+        "url": "git+https://github.com/rolldown/rolldown.git",
+        "type": "git",
+        "directory": "packages/rolldown"
+      }
+    },
+    {
+      "lock_key": "@rolldown/binding-linux-arm64-musl",
+      "name": "@rolldown/binding-linux-arm64-musl",
+      "version": "1.2.16",
+      "integrity": "sha512-hrJpblMsrQ58U9veWpbXzkhV5zStunds6HWLprqq1qauvgBr1E6P+24kLj6lSLI9vjRn/RYpjprhkHQPKGWpNg==",
+      "license": "MIT",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/%40rolldown%2Fbinding-linux-arm64-musl/1.2.16",
+        "identity_and_integrity_match": true,
+        "license": "MIT",
+        "repository": {
+          "url": "git+https://github.com/rolldown/rolldown.git",
+          "type": "git",
+          "directory": "packages/rolldown"
+        },
+        "dist_integrity": "sha512-hrJpblMsrQ58U9veWpbXzkhV5zStunds6HWLprqq1qauvgBr1E6P+24kLj6lSLI9vjRn/RYpjprhkHQPKGWpNg=="
+      },
+      "repository": {
+        "url": "git+https://github.com/rolldown/rolldown.git",
+        "type": "git",
+        "directory": "packages/rolldown"
+      }
+    },
+    {
+      "lock_key": "@rolldown/binding-linux-ppc64-gnu",
+      "name": "@rolldown/binding-linux-ppc64-gnu",
+      "version": "1.2.16",
+      "integrity": "sha512-qJd/dC6j6CwLG9/s/RP2nb1RZ0GIgj7Ioj7x/SYa3RzjVrlzrmH0fhIOpfvqQDeIsdP0loi+kHaMhJzY1PBIaA==",
+      "license": "MIT",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/%40rolldown%2Fbinding-linux-ppc64-gnu/1.2.16",
+        "identity_and_integrity_match": true,
+        "license": "MIT",
+        "repository": {
+          "url": "git+https://github.com/rolldown/rolldown.git",
+          "type": "git",
+          "directory": "packages/rolldown"
+        },
+        "dist_integrity": "sha512-qJd/dC6j6CwLG9/s/RP2nb1RZ0GIgj7Ioj7x/SYa3RzjVrlzrmH0fhIOpfvqQDeIsdP0loi+kHaMhJzY1PBIaA=="
+      },
+      "repository": {
+        "url": "git+https://github.com/rolldown/rolldown.git",
+        "type": "git",
+        "directory": "packages/rolldown"
+      }
+    },
+    {
+      "lock_key": "@rolldown/binding-linux-s390x-gnu",
+      "name": "@rolldown/binding-linux-s390x-gnu",
+      "version": "1.2.16",
+      "integrity": "sha512-Vx7Xg5uUJuNcujJjI70OICaH0EYj80BtOLZTSN7uOYg8QOLlyKnaG0IW7Fn/J0IpJsaKzmDKMhOQv1JBM9m9vg==",
+      "license": "MIT",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/%40rolldown%2Fbinding-linux-s390x-gnu/1.2.16",
+        "identity_and_integrity_match": true,
+        "license": "MIT",
+        "repository": {
+          "url": "git+https://github.com/rolldown/rolldown.git",
+          "type": "git",
+          "directory": "packages/rolldown"
+        },
+        "dist_integrity": "sha512-Vx7Xg5uUJuNcujJjI70OICaH0EYj80BtOLZTSN7uOYg8QOLlyKnaG0IW7Fn/J0IpJsaKzmDKMhOQv1JBM9m9vg=="
+      },
+      "repository": {
+        "url": "git+https://github.com/rolldown/rolldown.git",
+        "type": "git",
+        "directory": "packages/rolldown"
+      }
+    },
+    {
+      "lock_key": "@rolldown/binding-linux-x64-gnu",
+      "name": "@rolldown/binding-linux-x64-gnu",
+      "version": "1.2.16",
+      "integrity": "sha512-TNKhgE3uJTsTzatUSSYt0Kgo+Oa2uSlSjz4r1aEIea7HX6ULBym4fAlYUhG1i6pjNf2njfCUAfKwr6C3E9Xg1w==",
+      "license": "MIT",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/%40rolldown%2Fbinding-linux-x64-gnu/1.2.16",
+        "identity_and_integrity_match": true,
+        "license": "MIT",
+        "repository": {
+          "url": "git+https://github.com/rolldown/rolldown.git",
+          "type": "git",
+          "directory": "packages/rolldown"
+        },
+        "dist_integrity": "sha512-TNKhgE3uJTsTzatUSSYt0Kgo+Oa2uSlSjz4r1aEIea7HX6ULBym4fAlYUhG1i6pjNf2njfCUAfKwr6C3E9Xg1w=="
+      },
+      "repository": {
+        "url": "git+https://github.com/rolldown/rolldown.git",
+        "type": "git",
+        "directory": "packages/rolldown"
+      }
+    },
+    {
+      "lock_key": "@rolldown/binding-linux-x64-musl",
+      "name": "@rolldown/binding-linux-x64-musl",
+      "version": "1.2.16",
+      "integrity": "sha512-7chXdpjXZ8qG0+mIxECN3cT9kvhZ3/oZhMX6Pp876P7CDrIy8nJswva6Mq357JR7eYXfuskwZxMeV1SzoZdHrA==",
+      "license": "MIT",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/%40rolldown%2Fbinding-linux-x64-musl/1.2.16",
+        "identity_and_integrity_match": true,
+        "license": "MIT",
+        "repository": {
+          "url": "git+https://github.com/rolldown/rolldown.git",
+          "type": "git",
+          "directory": "packages/rolldown"
+        },
+        "dist_integrity": "sha512-7chXdpjXZ8qG0+mIxECN3cT9kvhZ3/oZhMX6Pp876P7CDrIy8nJswva6Mq357JR7eYXfuskwZxMeV1SzoZdHrA=="
+      },
+      "repository": {
+        "url": "git+https://github.com/rolldown/rolldown.git",
+        "type": "git",
+        "directory": "packages/rolldown"
+      }
+    },
+    {
+      "lock_key": "@rolldown/binding-openharmony-arm64",
+      "name": "@rolldown/binding-openharmony-arm64",
+      "version": "1.2.16",
+      "integrity": "sha512-Kwjt+7uNTJK5/MDkGWGVO2KQPnj8yAV75dMpfwyHZrJSXWHrniOB0aUEWlVYf3H1hOqFLIStLdM5QXq6bnKmOQ==",
+      "license": "MIT",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/%40rolldown%2Fbinding-openharmony-arm64/1.2.16",
+        "identity_and_integrity_match": true,
+        "license": "MIT",
+        "repository": {
+          "url": "git+https://github.com/rolldown/rolldown.git",
+          "type": "git",
+          "directory": "packages/rolldown"
+        },
+        "dist_integrity": "sha512-Kwjt+7uNTJK5/MDkGWGVO2KQPnj8yAV75dMpfwyHZrJSXWHrniOB0aUEWlVYf3H1hOqFLIStLdM5QXq6bnKmOQ=="
+      },
+      "repository": {
+        "url": "git+https://github.com/rolldown/rolldown.git",
+        "type": "git",
+        "directory": "packages/rolldown"
+      }
+    },
+    {
+      "lock_key": "@rolldown/binding-win32-arm64-msvc",
+      "name": "@rolldown/binding-win32-arm64-msvc",
+      "version": "1.2.16",
+      "integrity": "sha512-/LH6WfjDRXXJz/p5xl4TmU+jpcnwcxbKEQBW/GZE0JHfN0lGIyTtsUEGaQ/q/GikkGJ2yLKe6pwm7AnEWO8pdw==",
+      "license": "MIT",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/%40rolldown%2Fbinding-win32-arm64-msvc/1.2.16",
+        "identity_and_integrity_match": true,
+        "license": "MIT",
+        "repository": {
+          "url": "git+https://github.com/rolldown/rolldown.git",
+          "type": "git",
+          "directory": "packages/rolldown"
+        },
+        "dist_integrity": "sha512-/LH6WfjDRXXJz/p5xl4TmU+jpcnwcxbKEQBW/GZE0JHfN0lGIyTtsUEGaQ/q/GikkGJ2yLKe6pwm7AnEWO8pdw=="
+      },
+      "repository": {
+        "url": "git+https://github.com/rolldown/rolldown.git",
+        "type": "git",
+        "directory": "packages/rolldown"
+      }
+    },
+    {
+      "lock_key": "@rolldown/binding-win32-x64-msvc",
+      "name": "@rolldown/binding-win32-x64-msvc",
+      "version": "1.2.16",
+      "integrity": "sha512-1lv1KvX0Z871zfk7vw+dnXMMnHNyDwMzWG8Kv3HxDXMOhzCX4SHc7HK319fInP0i+0p9D8brkfzL7pJOaGl+tw==",
+      "license": "MIT",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rolldown/rolldown.git",
+        "directory": "packages/rolldown"
+      }
+    },
+    {
+      "lock_key": "@rolldown/pluginutils",
+      "name": "@rolldown/pluginutils",
+      "version": "1.0.1",
+      "integrity": "sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==",
+      "license": "MIT",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rolldown/plugins.git",
+        "directory": "packages/pluginutils"
+      }
+    },
+    {
+      "lock_key": "@tweenjs/tween.js",
+      "name": "@tweenjs/tween.js",
+      "version": "23.1.3",
+      "integrity": "sha512-vJmvvwFxYuGnF2axRtPYocag6Clbb5YS7kLL+SO/TeVFzHqDIWrNKYtcsPMibjDx9O+bu+psAy9NKfWklassUA==",
+      "license": "MIT",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/tweenjs/tween.js.git"
+      }
+    },
+    {
+      "lock_key": "@types/bun",
+      "name": "@types/bun",
+      "version": "1.4.4",
+      "integrity": "sha512-9wkRDXUXK124pEnAutE6n/l18j+i9GC5IAHK8TmX/2nlySETmky0OU6yL5U8pW1AoKh++AN9auDCr647BfurjQ==",
+      "license": "MIT",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/bun"
+      }
+    },
+    {
+      "lock_key": "@types/node",
+      "name": "@types/node",
+      "version": "26.6.6",
+      "integrity": "sha512-MzQj+8Kx3XI40OmUAE6Qoh58ZMNstNNMwn2nfd3qWsfe7nDNSqJNzes4njhz6AHwrSHOffSLwXU6yb474Q4aog==",
+      "license": "MIT",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/node"
+      }
+    },
+    {
+      "lock_key": "@types/react",
+      "name": "@types/react",
+      "version": "19.3.0",
+      "integrity": "sha512-N0rFCuH9YoxG9/m61l9MfpJKfmLOVU0em7ipIz6TRgSSkvReLB9vL85GB+yr8Bs5leqpvg96JSwF4ZS1s4viQg==",
+      "license": "MIT",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/react"
+      }
+    },
+    {
+      "lock_key": "@types/react-dom",
+      "name": "@types/react-dom",
+      "version": "19.3.0",
+      "integrity": "sha512-ZI7bU42mZXXKHn/qNLEw2IrbiINU7X5+vfgdixBHkCNpYWXjKgfQ/P+uyGb5CjOLB9UcnTeg3rylQtV2hym44Q==",
+      "license": "MIT",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/react-dom"
+      }
+    },
+    {
+      "lock_key": "@types/stats.js",
+      "name": "@types/stats.js",
+      "version": "0.17.4",
+      "integrity": "sha512-jIBvWWShCvlBqBNIZt0KAshWpvSjhkwkEu4ZUcASoAvhmrgAUI2t1dXrjSL4xXVLB4FznPrIsX3nKXFl/Dt4vA==",
+      "license": "MIT",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/stats.js"
+      }
+    },
+    {
+      "lock_key": "@types/three",
+      "name": "@types/three",
+      "version": "0.186.0",
+      "integrity": "sha512-mxYSBpDC+D0pLfSP6sW4WZTcT+nrtmZcimMqnVmy36Hte3XpeYSrvgg4TRdaM1GemGog1AWzI5qL2VoIfMXbJQ==",
+      "license": "MIT",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/three"
+      }
+    },
+    {
+      "lock_key": "@types/webxr",
+      "name": "@types/webxr",
+      "version": "0.5.24",
+      "integrity": "sha512-h8fgEd/DpoS9CBrjEQXR+dIDraopAEfu4wYVNY2tEPwk60stPWhvZMf4Foo5FakuQ7HFZoa8WceaWFervK2Ovg==",
+      "license": "MIT",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/webxr"
+      }
+    },
+    {
+      "lock_key": "@typescript/typescript-aix-ppc64",
+      "name": "@typescript/typescript-aix-ppc64",
+      "version": "7.0.2",
+      "integrity": "sha512-MTKKkWB7p/0E9xi1d1tHtZ5PiLkGEMIq88pK2CubZjOsLtYTLqhgIgi6zepFa+9GHZ6h05NMCkQxGKiPXMxXtQ==",
+      "license": "Apache-2.0",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/%40typescript%2Ftypescript-aix-ppc64/7.0.2",
+        "identity_and_integrity_match": true,
+        "license": "Apache-2.0",
+        "repository": {
+          "url": "git+https://github.com/microsoft/TypeScript.git",
+          "type": "git"
+        },
+        "dist_integrity": "sha512-MTKKkWB7p/0E9xi1d1tHtZ5PiLkGEMIq88pK2CubZjOsLtYTLqhgIgi6zepFa+9GHZ6h05NMCkQxGKiPXMxXtQ=="
+      },
+      "repository": {
+        "url": "git+https://github.com/microsoft/TypeScript.git",
+        "type": "git"
+      }
+    },
+    {
+      "lock_key": "@typescript/typescript-darwin-arm64",
+      "name": "@typescript/typescript-darwin-arm64",
+      "version": "7.0.2",
+      "integrity": "sha512-gowzar9MwS/aRWp6f3a4KUqzRjAZjOsmGNCM6LcTgXum+dBfgsBVMN+AgvOCCbguXyick6LJhpBszxMebJ8syA==",
+      "license": "Apache-2.0",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/%40typescript%2Ftypescript-darwin-arm64/7.0.2",
+        "identity_and_integrity_match": true,
+        "license": "Apache-2.0",
+        "repository": {
+          "url": "git+https://github.com/microsoft/TypeScript.git",
+          "type": "git"
+        },
+        "dist_integrity": "sha512-gowzar9MwS/aRWp6f3a4KUqzRjAZjOsmGNCM6LcTgXum+dBfgsBVMN+AgvOCCbguXyick6LJhpBszxMebJ8syA=="
+      },
+      "repository": {
+        "url": "git+https://github.com/microsoft/TypeScript.git",
+        "type": "git"
+      }
+    },
+    {
+      "lock_key": "@typescript/typescript-darwin-x64",
+      "name": "@typescript/typescript-darwin-x64",
+      "version": "7.0.2",
+      "integrity": "sha512-SZ9xZInqApNlNGc9s0W1VSsktYSOe9cFqNOIqmN1Gs8SmkjKZYFt017G4VwPxASInODuAdbTW7sXiFUf893RgA==",
+      "license": "Apache-2.0",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/%40typescript%2Ftypescript-darwin-x64/7.0.2",
+        "identity_and_integrity_match": true,
+        "license": "Apache-2.0",
+        "repository": {
+          "url": "git+https://github.com/microsoft/TypeScript.git",
+          "type": "git"
+        },
+        "dist_integrity": "sha512-SZ9xZInqApNlNGc9s0W1VSsktYSOe9cFqNOIqmN1Gs8SmkjKZYFt017G4VwPxASInODuAdbTW7sXiFUf893RgA=="
+      },
+      "repository": {
+        "url": "git+https://github.com/microsoft/TypeScript.git",
+        "type": "git"
+      }
+    },
+    {
+      "lock_key": "@typescript/typescript-freebsd-arm64",
+      "name": "@typescript/typescript-freebsd-arm64",
+      "version": "7.0.2",
+      "integrity": "sha512-W5NH4y/J0plIIS5b2xvTEkU7JFxyqdMAOgf+Ilhl0vHQXKO5dZoxd+C/jEtq56c4F3wk71RB4BMRQ2XdI+bwYQ==",
+      "license": "Apache-2.0",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/%40typescript%2Ftypescript-freebsd-arm64/7.0.2",
+        "identity_and_integrity_match": true,
+        "license": "Apache-2.0",
+        "repository": {
+          "url": "git+https://github.com/microsoft/TypeScript.git",
+          "type": "git"
+        },
+        "dist_integrity": "sha512-W5NH4y/J0plIIS5b2xvTEkU7JFxyqdMAOgf+Ilhl0vHQXKO5dZoxd+C/jEtq56c4F3wk71RB4BMRQ2XdI+bwYQ=="
+      },
+      "repository": {
+        "url": "git+https://github.com/microsoft/TypeScript.git",
+        "type": "git"
+      }
+    },
+    {
+      "lock_key": "@typescript/typescript-freebsd-x64",
+      "name": "@typescript/typescript-freebsd-x64",
+      "version": "7.0.2",
+      "integrity": "sha512-UMGDx5sTpzNw3WiPebH7l90IWfJggEd+egHt/q6p7/Cm3zqoV7VxkGXt+3DxPIw8CcmvAB0j3sVVfbhX+M4Tpw==",
+      "license": "Apache-2.0",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/%40typescript%2Ftypescript-freebsd-x64/7.0.2",
+        "identity_and_integrity_match": true,
+        "license": "Apache-2.0",
+        "repository": {
+          "url": "git+https://github.com/microsoft/TypeScript.git",
+          "type": "git"
+        },
+        "dist_integrity": "sha512-UMGDx5sTpzNw3WiPebH7l90IWfJggEd+egHt/q6p7/Cm3zqoV7VxkGXt+3DxPIw8CcmvAB0j3sVVfbhX+M4Tpw=="
+      },
+      "repository": {
+        "url": "git+https://github.com/microsoft/TypeScript.git",
+        "type": "git"
+      }
+    },
+    {
+      "lock_key": "@typescript/typescript-linux-arm",
+      "name": "@typescript/typescript-linux-arm",
+      "version": "7.0.2",
+      "integrity": "sha512-gffT3xPz9sR7j/YJExkyPntrI0P2EP9XbOyWzth2/Gs0RstK+90RBcO0ncXoXy/beYll1SXw846Nf2zdnEz0QQ==",
+      "license": "Apache-2.0",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/%40typescript%2Ftypescript-linux-arm/7.0.2",
+        "identity_and_integrity_match": true,
+        "license": "Apache-2.0",
+        "repository": {
+          "url": "git+https://github.com/microsoft/TypeScript.git",
+          "type": "git"
+        },
+        "dist_integrity": "sha512-gffT3xPz9sR7j/YJExkyPntrI0P2EP9XbOyWzth2/Gs0RstK+90RBcO0ncXoXy/beYll1SXw846Nf2zdnEz0QQ=="
+      },
+      "repository": {
+        "url": "git+https://github.com/microsoft/TypeScript.git",
+        "type": "git"
+      }
+    },
+    {
+      "lock_key": "@typescript/typescript-linux-arm64",
+      "name": "@typescript/typescript-linux-arm64",
+      "version": "7.0.2",
+      "integrity": "sha512-Qh4eU4/y3yDjnfjjyPYihMj5/ODIlmt+Bzu17OI+fiSRDW57QmU5SiN63exPRNJPKUzcc1INa1NXdrJ+MqHjUQ==",
+      "license": "Apache-2.0",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/%40typescript%2Ftypescript-linux-arm64/7.0.2",
+        "identity_and_integrity_match": true,
+        "license": "Apache-2.0",
+        "repository": {
+          "url": "git+https://github.com/microsoft/TypeScript.git",
+          "type": "git"
+        },
+        "dist_integrity": "sha512-Qh4eU4/y3yDjnfjjyPYihMj5/ODIlmt+Bzu17OI+fiSRDW57QmU5SiN63exPRNJPKUzcc1INa1NXdrJ+MqHjUQ=="
+      },
+      "repository": {
+        "url": "git+https://github.com/microsoft/TypeScript.git",
+        "type": "git"
+      }
+    },
+    {
+      "lock_key": "@typescript/typescript-linux-loong64",
+      "name": "@typescript/typescript-linux-loong64",
+      "version": "7.0.2",
+      "integrity": "sha512-uEHck9i8hoAzXPiYRib1O7miOnz23SxIeVl6F4LXox+qov1K35jHcEW6VHKvZI+pyvl7fZEP4MCU5LYvIq1GuQ==",
+      "license": "Apache-2.0",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/%40typescript%2Ftypescript-linux-loong64/7.0.2",
+        "identity_and_integrity_match": true,
+        "license": "Apache-2.0",
+        "repository": {
+          "url": "git+https://github.com/microsoft/TypeScript.git",
+          "type": "git"
+        },
+        "dist_integrity": "sha512-uEHck9i8hoAzXPiYRib1O7miOnz23SxIeVl6F4LXox+qov1K35jHcEW6VHKvZI+pyvl7fZEP4MCU5LYvIq1GuQ=="
+      },
+      "repository": {
+        "url": "git+https://github.com/microsoft/TypeScript.git",
+        "type": "git"
+      }
+    },
+    {
+      "lock_key": "@typescript/typescript-linux-mips64el",
+      "name": "@typescript/typescript-linux-mips64el",
+      "version": "7.0.2",
+      "integrity": "sha512-R4KvAMnE43W5Qeqb0Ly56O3mWMWIAgsMyz36DCaycd5nbg/9kzm0liw3JocfRqyJY0KPmzFjbswozXyW0DnIYA==",
+      "license": "Apache-2.0",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/%40typescript%2Ftypescript-linux-mips64el/7.0.2",
+        "identity_and_integrity_match": true,
+        "license": "Apache-2.0",
+        "repository": {
+          "url": "git+https://github.com/microsoft/TypeScript.git",
+          "type": "git"
+        },
+        "dist_integrity": "sha512-R4KvAMnE43W5Qeqb0Ly56O3mWMWIAgsMyz36DCaycd5nbg/9kzm0liw3JocfRqyJY0KPmzFjbswozXyW0DnIYA=="
+      },
+      "repository": {
+        "url": "git+https://github.com/microsoft/TypeScript.git",
+        "type": "git"
+      }
+    },
+    {
+      "lock_key": "@typescript/typescript-linux-ppc64",
+      "name": "@typescript/typescript-linux-ppc64",
+      "version": "7.0.2",
+      "integrity": "sha512-DORx5b3sd/4S7eayxm4FQv+A7CrkUIGRaHiwI8oiHTAI1fAPWhF4J0vAlkC8biAlHSVVwxMQ3tjZ2/DVbnQiiA==",
+      "license": "Apache-2.0",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/%40typescript%2Ftypescript-linux-ppc64/7.0.2",
+        "identity_and_integrity_match": true,
+        "license": "Apache-2.0",
+        "repository": {
+          "url": "git+https://github.com/microsoft/TypeScript.git",
+          "type": "git"
+        },
+        "dist_integrity": "sha512-DORx5b3sd/4S7eayxm4FQv+A7CrkUIGRaHiwI8oiHTAI1fAPWhF4J0vAlkC8biAlHSVVwxMQ3tjZ2/DVbnQiiA=="
+      },
+      "repository": {
+        "url": "git+https://github.com/microsoft/TypeScript.git",
+        "type": "git"
+      }
+    },
+    {
+      "lock_key": "@typescript/typescript-linux-riscv64",
+      "name": "@typescript/typescript-linux-riscv64",
+      "version": "7.0.2",
+      "integrity": "sha512-wf0jqEDOjrPRnKwYRyyJDRo11KMbvMFrU+q4zqKyChODBzvlkbhNQfKvLxQCcwTpdDaXSHZTVuh0JoCrKCUMHQ==",
+      "license": "Apache-2.0",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/%40typescript%2Ftypescript-linux-riscv64/7.0.2",
+        "identity_and_integrity_match": true,
+        "license": "Apache-2.0",
+        "repository": {
+          "url": "git+https://github.com/microsoft/TypeScript.git",
+          "type": "git"
+        },
+        "dist_integrity": "sha512-wf0jqEDOjrPRnKwYRyyJDRo11KMbvMFrU+q4zqKyChODBzvlkbhNQfKvLxQCcwTpdDaXSHZTVuh0JoCrKCUMHQ=="
+      },
+      "repository": {
+        "url": "git+https://github.com/microsoft/TypeScript.git",
+        "type": "git"
+      }
+    },
+    {
+      "lock_key": "@typescript/typescript-linux-s390x",
+      "name": "@typescript/typescript-linux-s390x",
+      "version": "7.0.2",
+      "integrity": "sha512-IkwJc3L7yhytWd/ewjyxNDfOmswCm9GWMJT/ue/dU4aZNbwZeYAetq42VyLmsmSjvoX7z74X6ZaYCtzAr0EuGw==",
+      "license": "Apache-2.0",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/%40typescript%2Ftypescript-linux-s390x/7.0.2",
+        "identity_and_integrity_match": true,
+        "license": "Apache-2.0",
+        "repository": {
+          "url": "git+https://github.com/microsoft/TypeScript.git",
+          "type": "git"
+        },
+        "dist_integrity": "sha512-IkwJc3L7yhytWd/ewjyxNDfOmswCm9GWMJT/ue/dU4aZNbwZeYAetq42VyLmsmSjvoX7z74X6ZaYCtzAr0EuGw=="
+      },
+      "repository": {
+        "url": "git+https://github.com/microsoft/TypeScript.git",
+        "type": "git"
+      }
+    },
+    {
+      "lock_key": "@typescript/typescript-linux-x64",
+      "name": "@typescript/typescript-linux-x64",
+      "version": "7.0.2",
+      "integrity": "sha512-EYdf2cNg7rgCWJnxCdJ+F3V39O8ihb37eHAu1LK8oAFizgTQbPOK7zHHXbPt8rX24COqODXeI3sIf0fCXG7H/A==",
+      "license": "Apache-2.0",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/%40typescript%2Ftypescript-linux-x64/7.0.2",
+        "identity_and_integrity_match": true,
+        "license": "Apache-2.0",
+        "repository": {
+          "url": "git+https://github.com/microsoft/TypeScript.git",
+          "type": "git"
+        },
+        "dist_integrity": "sha512-EYdf2cNg7rgCWJnxCdJ+F3V39O8ihb37eHAu1LK8oAFizgTQbPOK7zHHXbPt8rX24COqODXeI3sIf0fCXG7H/A=="
+      },
+      "repository": {
+        "url": "git+https://github.com/microsoft/TypeScript.git",
+        "type": "git"
+      }
+    },
+    {
+      "lock_key": "@typescript/typescript-netbsd-arm64",
+      "name": "@typescript/typescript-netbsd-arm64",
+      "version": "7.0.2",
+      "integrity": "sha512-+polYF4MF04aPpO5FTkHran9yUQDSXqy5GiSDKpsll5jy3l3+g9QLhpf39T+ePtefhXLOGrLl0QIjkQP6VnelA==",
+      "license": "Apache-2.0",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/%40typescript%2Ftypescript-netbsd-arm64/7.0.2",
+        "identity_and_integrity_match": true,
+        "license": "Apache-2.0",
+        "repository": {
+          "url": "git+https://github.com/microsoft/TypeScript.git",
+          "type": "git"
+        },
+        "dist_integrity": "sha512-+polYF4MF04aPpO5FTkHran9yUQDSXqy5GiSDKpsll5jy3l3+g9QLhpf39T+ePtefhXLOGrLl0QIjkQP6VnelA=="
+      },
+      "repository": {
+        "url": "git+https://github.com/microsoft/TypeScript.git",
+        "type": "git"
+      }
+    },
+    {
+      "lock_key": "@typescript/typescript-netbsd-x64",
+      "name": "@typescript/typescript-netbsd-x64",
+      "version": "7.0.2",
+      "integrity": "sha512-8YIT0EHM/3dq10ZOVF/A7pc/YSMtbcecct4rWtexrnSCHOPcpC2KTLXfTCR6vDpnSiY12heNb1GiN/wu+T/FyA==",
+      "license": "Apache-2.0",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/%40typescript%2Ftypescript-netbsd-x64/7.0.2",
+        "identity_and_integrity_match": true,
+        "license": "Apache-2.0",
+        "repository": {
+          "url": "git+https://github.com/microsoft/TypeScript.git",
+          "type": "git"
+        },
+        "dist_integrity": "sha512-8YIT0EHM/3dq10ZOVF/A7pc/YSMtbcecct4rWtexrnSCHOPcpC2KTLXfTCR6vDpnSiY12heNb1GiN/wu+T/FyA=="
+      },
+      "repository": {
+        "url": "git+https://github.com/microsoft/TypeScript.git",
+        "type": "git"
+      }
+    },
+    {
+      "lock_key": "@typescript/typescript-openbsd-arm64",
+      "name": "@typescript/typescript-openbsd-arm64",
+      "version": "7.0.2",
+      "integrity": "sha512-APT8+ClYnuYm1u9+kgGXoMj2VzWzcymwh2gNSQVySHfkRDGOTVkoWLjCmOQSaO+PoqQ57B0flRp9SA+7GnnkzQ==",
+      "license": "Apache-2.0",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/%40typescript%2Ftypescript-openbsd-arm64/7.0.2",
+        "identity_and_integrity_match": true,
+        "license": "Apache-2.0",
+        "repository": {
+          "url": "git+https://github.com/microsoft/TypeScript.git",
+          "type": "git"
+        },
+        "dist_integrity": "sha512-APT8+ClYnuYm1u9+kgGXoMj2VzWzcymwh2gNSQVySHfkRDGOTVkoWLjCmOQSaO+PoqQ57B0flRp9SA+7GnnkzQ=="
+      },
+      "repository": {
+        "url": "git+https://github.com/microsoft/TypeScript.git",
+        "type": "git"
+      }
+    },
+    {
+      "lock_key": "@typescript/typescript-openbsd-x64",
+      "name": "@typescript/typescript-openbsd-x64",
+      "version": "7.0.2",
+      "integrity": "sha512-yX7s+Q0Dln0Dt9tEzZsAjXXR/+ytBM7AlglaqyeMPxQszJ1JhlJdZ6jLA+IzldHtflX81em7lDao1xXu+aRRkg==",
+      "license": "Apache-2.0",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/%40typescript%2Ftypescript-openbsd-x64/7.0.2",
+        "identity_and_integrity_match": true,
+        "license": "Apache-2.0",
+        "repository": {
+          "url": "git+https://github.com/microsoft/TypeScript.git",
+          "type": "git"
+        },
+        "dist_integrity": "sha512-yX7s+Q0Dln0Dt9tEzZsAjXXR/+ytBM7AlglaqyeMPxQszJ1JhlJdZ6jLA+IzldHtflX81em7lDao1xXu+aRRkg=="
+      },
+      "repository": {
+        "url": "git+https://github.com/microsoft/TypeScript.git",
+        "type": "git"
+      }
+    },
+    {
+      "lock_key": "@typescript/typescript-sunos-x64",
+      "name": "@typescript/typescript-sunos-x64",
+      "version": "7.0.2",
+      "integrity": "sha512-dLJDGaLZ1D4HPQn62u1n8mBDkJREwMsAkCdkwd4Ieqw+x3TUyTsqY0YiBCtE6H6OzzgGk3iuZ3vFWRS+E8/d1g==",
+      "license": "Apache-2.0",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/%40typescript%2Ftypescript-sunos-x64/7.0.2",
+        "identity_and_integrity_match": true,
+        "license": "Apache-2.0",
+        "repository": {
+          "url": "git+https://github.com/microsoft/TypeScript.git",
+          "type": "git"
+        },
+        "dist_integrity": "sha512-dLJDGaLZ1D4HPQn62u1n8mBDkJREwMsAkCdkwd4Ieqw+x3TUyTsqY0YiBCtE6H6OzzgGk3iuZ3vFWRS+E8/d1g=="
+      },
+      "repository": {
+        "url": "git+https://github.com/microsoft/TypeScript.git",
+        "type": "git"
+      }
+    },
+    {
+      "lock_key": "@typescript/typescript-win32-arm64",
+      "name": "@typescript/typescript-win32-arm64",
+      "version": "7.0.2",
+      "integrity": "sha512-Gyl1Vy6OsWesLzmq+EP0Fb7b4Nid5232AvcA2SFcdYreldpNtYFFofPjnt62y9hQy7VTaZp65ICJjuAQRaVcIQ==",
+      "license": "Apache-2.0",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/%40typescript%2Ftypescript-win32-arm64/7.0.2",
+        "identity_and_integrity_match": true,
+        "license": "Apache-2.0",
+        "repository": {
+          "url": "git+https://github.com/microsoft/TypeScript.git",
+          "type": "git"
+        },
+        "dist_integrity": "sha512-Gyl1Vy6OsWesLzmq+EP0Fb7b4Nid5232AvcA2SFcdYreldpNtYFFofPjnt62y9hQy7VTaZp65ICJjuAQRaVcIQ=="
+      },
+      "repository": {
+        "url": "git+https://github.com/microsoft/TypeScript.git",
+        "type": "git"
+      }
+    },
+    {
+      "lock_key": "@typescript/typescript-win32-x64",
+      "name": "@typescript/typescript-win32-x64",
+      "version": "7.0.2",
+      "integrity": "sha512-0BQ3HkAHHlKLSp1qRvf3SUhGpGsDuhB/jgFw75guyqbxJqEaS0Cw/VFO8i2nHglJUzQCRtMMR/IBAKE3ETMC4g==",
+      "license": "Apache-2.0",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/microsoft/TypeScript.git"
+      }
+    },
+    {
+      "lock_key": "@vitejs/plugin-react",
+      "name": "@vitejs/plugin-react",
+      "version": "6.2.1",
+      "integrity": "sha512-9KyWCij3r0+qLG3Q62vBmv0VyevmYibAtxaCIVK9o0k6CXgaajZRIe8tpfchQcdZArJ5b/7OrIz4W3b2uxVRDA==",
+      "license": "MIT",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vitejs/vite-plugin-react.git",
+        "directory": "packages/plugin-react"
+      }
+    },
+    {
+      "lock_key": "bun-types",
+      "name": "bun-types",
+      "version": "1.4.4",
+      "integrity": "sha512-yjrJh5oGX7mMPKGd19YXyIjmEuj4G4zNC30bs7PM9Az7NQ3ndF3j6hbeRdvJTRQEhJ/FYQwW0a2moweEi2hMxQ==",
+      "license": "MIT",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/oven-sh/bun",
+        "directory": "packages/bun-types"
+      }
+    },
+    {
+      "lock_key": "csstype",
+      "name": "csstype",
+      "version": "3.2.3",
+      "integrity": "sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==",
+      "license": "MIT",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": "https://github.com/frenic/csstype"
+    },
+    {
+      "lock_key": "detect-libc",
+      "name": "detect-libc",
+      "version": "2.1.2",
+      "integrity": "sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==",
+      "license": "Apache-2.0",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/lovell/detect-libc.git"
+      }
+    },
+    {
+      "lock_key": "fdir",
+      "name": "fdir",
+      "version": "6.5.0",
+      "integrity": "sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==",
+      "license": "MIT",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/thecodrr/fdir.git"
+      }
+    },
+    {
+      "lock_key": "fflate",
+      "name": "fflate",
+      "version": "0.8.3",
+      "integrity": "sha512-tbZNuJrLwGUp3zshBtdy4W+ORxZuIh8a5ilyIEQDC5rY1f3U20JMry0Ll3WBzU58EZKsEuJFXhb5gwv8CsPvgA==",
+      "license": "MIT",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": "https://github.com/101arrowz/fflate"
+    },
+    {
+      "lock_key": "fsevents",
+      "name": "fsevents",
+      "version": "2.3.3",
+      "integrity": "sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==",
+      "license": "MIT",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/fsevents/2.3.3",
+        "identity_and_integrity_match": true,
+        "license": "MIT",
+        "repository": {
+          "url": "git+https://github.com/fsevents/fsevents.git",
+          "type": "git"
+        },
+        "dist_integrity": "sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw=="
+      },
+      "repository": {
+        "url": "git+https://github.com/fsevents/fsevents.git",
+        "type": "git"
+      }
+    },
+    {
+      "lock_key": "lightningcss",
+      "name": "lightningcss",
+      "version": "1.33.0",
+      "integrity": "sha512-WkUDrojuJs0xkgGf2udWxa3yGBRxPtxUkB79i6aCZLRgc7PM8fZe9TosfPDcvEpQZbuFASnHYmRLBLUbmLOIIA==",
+      "license": "MPL-2.0",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/parcel-bundler/lightningcss.git"
+      }
+    },
+    {
+      "lock_key": "lightningcss-android-arm64",
+      "name": "lightningcss-android-arm64",
+      "version": "1.33.0",
+      "integrity": "sha512-gEpRTalKdosp4Bb8qWtc2iOgE5SeIHlpS1up9bFq2wAyYhl1UdTObYiHe98zEM9SQvSoqQZ1IQD0JNpg3Ml5pg==",
+      "license": "MPL-2.0",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/lightningcss-android-arm64/1.33.0",
+        "identity_and_integrity_match": true,
+        "license": "MPL-2.0",
+        "repository": {
+          "url": "git+https://github.com/parcel-bundler/lightningcss.git",
+          "type": "git"
+        },
+        "dist_integrity": "sha512-gEpRTalKdosp4Bb8qWtc2iOgE5SeIHlpS1up9bFq2wAyYhl1UdTObYiHe98zEM9SQvSoqQZ1IQD0JNpg3Ml5pg=="
+      },
+      "repository": {
+        "url": "git+https://github.com/parcel-bundler/lightningcss.git",
+        "type": "git"
+      }
+    },
+    {
+      "lock_key": "lightningcss-darwin-arm64",
+      "name": "lightningcss-darwin-arm64",
+      "version": "1.33.0",
+      "integrity": "sha512-Sciaz8eenNTKn9b3t7+xr0ipTp9YxKQY4npwQ3mrRuL0BAVHBLyZxofhaKBAVtzmtRZ/zTyo0/to4B1uWG/Djg==",
+      "license": "MPL-2.0",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/lightningcss-darwin-arm64/1.33.0",
+        "identity_and_integrity_match": true,
+        "license": "MPL-2.0",
+        "repository": {
+          "url": "git+https://github.com/parcel-bundler/lightningcss.git",
+          "type": "git"
+        },
+        "dist_integrity": "sha512-Sciaz8eenNTKn9b3t7+xr0ipTp9YxKQY4npwQ3mrRuL0BAVHBLyZxofhaKBAVtzmtRZ/zTyo0/to4B1uWG/Djg=="
+      },
+      "repository": {
+        "url": "git+https://github.com/parcel-bundler/lightningcss.git",
+        "type": "git"
+      }
+    },
+    {
+      "lock_key": "lightningcss-darwin-x64",
+      "name": "lightningcss-darwin-x64",
+      "version": "1.33.0",
+      "integrity": "sha512-Z5UPAxzrjlWNNyGy6i65cJzzvgJ5D3T6wMvs+gWpY9d7qRhANrxqAp6LhxIgZhWEw18RfJTGcRxjuLIBr+m8XQ==",
+      "license": "MPL-2.0",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/lightningcss-darwin-x64/1.33.0",
+        "identity_and_integrity_match": true,
+        "license": "MPL-2.0",
+        "repository": {
+          "url": "git+https://github.com/parcel-bundler/lightningcss.git",
+          "type": "git"
+        },
+        "dist_integrity": "sha512-Z5UPAxzrjlWNNyGy6i65cJzzvgJ5D3T6wMvs+gWpY9d7qRhANrxqAp6LhxIgZhWEw18RfJTGcRxjuLIBr+m8XQ=="
+      },
+      "repository": {
+        "url": "git+https://github.com/parcel-bundler/lightningcss.git",
+        "type": "git"
+      }
+    },
+    {
+      "lock_key": "lightningcss-freebsd-x64",
+      "name": "lightningcss-freebsd-x64",
+      "version": "1.33.0",
+      "integrity": "sha512-QQM/Ti/hQajJwCY+RiWuCZ9sdtI/XQk7nDK5vC8kkdwixezOlDgvDx7+RT+QjK6FcFT4MpsuoBnHIo/O3StRRg==",
+      "license": "MPL-2.0",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/lightningcss-freebsd-x64/1.33.0",
+        "identity_and_integrity_match": true,
+        "license": "MPL-2.0",
+        "repository": {
+          "url": "git+https://github.com/parcel-bundler/lightningcss.git",
+          "type": "git"
+        },
+        "dist_integrity": "sha512-QQM/Ti/hQajJwCY+RiWuCZ9sdtI/XQk7nDK5vC8kkdwixezOlDgvDx7+RT+QjK6FcFT4MpsuoBnHIo/O3StRRg=="
+      },
+      "repository": {
+        "url": "git+https://github.com/parcel-bundler/lightningcss.git",
+        "type": "git"
+      }
+    },
+    {
+      "lock_key": "lightningcss-linux-arm-gnueabihf",
+      "name": "lightningcss-linux-arm-gnueabihf",
+      "version": "1.33.0",
+      "integrity": "sha512-N7FVBe6iS24MlM6R/4RBTxGhQheZGs7tiQ9U32UtF75NzP5Q7xWPRqLBCKxlRQRk3rY1jCIPLzx7WzOhuUIRLQ==",
+      "license": "MPL-2.0",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf/1.33.0",
+        "identity_and_integrity_match": true,
+        "license": "MPL-2.0",
+        "repository": {
+          "url": "git+https://github.com/parcel-bundler/lightningcss.git",
+          "type": "git"
+        },
+        "dist_integrity": "sha512-N7FVBe6iS24MlM6R/4RBTxGhQheZGs7tiQ9U32UtF75NzP5Q7xWPRqLBCKxlRQRk3rY1jCIPLzx7WzOhuUIRLQ=="
+      },
+      "repository": {
+        "url": "git+https://github.com/parcel-bundler/lightningcss.git",
+        "type": "git"
+      }
+    },
+    {
+      "lock_key": "lightningcss-linux-arm64-gnu",
+      "name": "lightningcss-linux-arm64-gnu",
+      "version": "1.33.0",
+      "integrity": "sha512-j2v/itmy4HlNxlc6voKXYgBqNi0Ng2LShg4z7GufpEgs05P+2suBVyi9I6YHq5uoVFx9ETin3eCEhLVyXGQnKg==",
+      "license": "MPL-2.0",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/lightningcss-linux-arm64-gnu/1.33.0",
+        "identity_and_integrity_match": true,
+        "license": "MPL-2.0",
+        "repository": {
+          "url": "git+https://github.com/parcel-bundler/lightningcss.git",
+          "type": "git"
+        },
+        "dist_integrity": "sha512-j2v/itmy4HlNxlc6voKXYgBqNi0Ng2LShg4z7GufpEgs05P+2suBVyi9I6YHq5uoVFx9ETin3eCEhLVyXGQnKg=="
+      },
+      "repository": {
+        "url": "git+https://github.com/parcel-bundler/lightningcss.git",
+        "type": "git"
+      }
+    },
+    {
+      "lock_key": "lightningcss-linux-arm64-musl",
+      "name": "lightningcss-linux-arm64-musl",
+      "version": "1.33.0",
+      "integrity": "sha512-yiO5ROMuYQgXbC60yjZU5CYSFZGKXL0HFATXt9mHJn1+zW55oCtMI9NfcVhYLMFDL7gV7oBPon/EmMMGg2OvtQ==",
+      "license": "MPL-2.0",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/lightningcss-linux-arm64-musl/1.33.0",
+        "identity_and_integrity_match": true,
+        "license": "MPL-2.0",
+        "repository": {
+          "url": "git+https://github.com/parcel-bundler/lightningcss.git",
+          "type": "git"
+        },
+        "dist_integrity": "sha512-yiO5ROMuYQgXbC60yjZU5CYSFZGKXL0HFATXt9mHJn1+zW55oCtMI9NfcVhYLMFDL7gV7oBPon/EmMMGg2OvtQ=="
+      },
+      "repository": {
+        "url": "git+https://github.com/parcel-bundler/lightningcss.git",
+        "type": "git"
+      }
+    },
+    {
+      "lock_key": "lightningcss-linux-x64-gnu",
+      "name": "lightningcss-linux-x64-gnu",
+      "version": "1.33.0",
+      "integrity": "sha512-ar+Ju7LmcN0Jo4FpL4hpFybwNG9/3A/Br5KW2n2jyODg3MEZXaDYADdemoNS+BDNfMgKvylJLj4S5tyRActuAg==",
+      "license": "MPL-2.0",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/lightningcss-linux-x64-gnu/1.33.0",
+        "identity_and_integrity_match": true,
+        "license": "MPL-2.0",
+        "repository": {
+          "url": "git+https://github.com/parcel-bundler/lightningcss.git",
+          "type": "git"
+        },
+        "dist_integrity": "sha512-ar+Ju7LmcN0Jo4FpL4hpFybwNG9/3A/Br5KW2n2jyODg3MEZXaDYADdemoNS+BDNfMgKvylJLj4S5tyRActuAg=="
+      },
+      "repository": {
+        "url": "git+https://github.com/parcel-bundler/lightningcss.git",
+        "type": "git"
+      }
+    },
+    {
+      "lock_key": "lightningcss-linux-x64-musl",
+      "name": "lightningcss-linux-x64-musl",
+      "version": "1.33.0",
+      "integrity": "sha512-RYiYbkokw0trfKqqzfF55lginwEPrD3OJDfTuJzFs1MK6iFnDenaz1fqLLtX4ITG3OktJQXOeTaw1awrBAlZPw==",
+      "license": "MPL-2.0",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/lightningcss-linux-x64-musl/1.33.0",
+        "identity_and_integrity_match": true,
+        "license": "MPL-2.0",
+        "repository": {
+          "url": "git+https://github.com/parcel-bundler/lightningcss.git",
+          "type": "git"
+        },
+        "dist_integrity": "sha512-RYiYbkokw0trfKqqzfF55lginwEPrD3OJDfTuJzFs1MK6iFnDenaz1fqLLtX4ITG3OktJQXOeTaw1awrBAlZPw=="
+      },
+      "repository": {
+        "url": "git+https://github.com/parcel-bundler/lightningcss.git",
+        "type": "git"
+      }
+    },
+    {
+      "lock_key": "lightningcss-win32-arm64-msvc",
+      "name": "lightningcss-win32-arm64-msvc",
+      "version": "1.33.0",
+      "integrity": "sha512-1K+MPfLSFVpphzpdbfkhlWk6wBrTObBzS2T6db10PNOZgR9GoVsAWzwNyuhUYYbTp23j+4RrncfujZ4uAzXvwA==",
+      "license": "MPL-2.0",
+      "evidence": "REGISTRY_EXACT_VERSION_AND_LOCK_INTEGRITY",
+      "registry_check": {
+        "url": "https://registry.npmjs.org/lightningcss-win32-arm64-msvc/1.33.0",
+        "identity_and_integrity_match": true,
+        "license": "MPL-2.0",
+        "repository": {
+          "url": "git+https://github.com/parcel-bundler/lightningcss.git",
+          "type": "git"
+        },
+        "dist_integrity": "sha512-1K+MPfLSFVpphzpdbfkhlWk6wBrTObBzS2T6db10PNOZgR9GoVsAWzwNyuhUYYbTp23j+4RrncfujZ4uAzXvwA=="
+      },
+      "repository": {
+        "url": "git+https://github.com/parcel-bundler/lightningcss.git",
+        "type": "git"
+      }
+    },
+    {
+      "lock_key": "lightningcss-win32-x64-msvc",
+      "name": "lightningcss-win32-x64-msvc",
+      "version": "1.33.0",
+      "integrity": "sha512-OlEICDx/Xl0FqSp4bry8zFnCvGpig3Gl4gCquvYwHuqJKEC1+n9NgDniFvqHGmMv1ZkqDJrDqKKSykTDX+ehuA==",
+      "license": "MPL-2.0",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/parcel-bundler/lightningcss.git"
+      }
+    },
+    {
+      "lock_key": "meshoptimizer",
+      "name": "meshoptimizer",
+      "version": "1.1.1",
+      "integrity": "sha512-oRFNWJRDA/WTrVj7NWvqa5HqE1t9MYDj2VaWirQCzCCrAd2GHrqR/sQezCxiWATPNlKTcRaPRHPJwIRoPBAp5g==",
+      "license": "MIT",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/zeux/meshoptimizer"
+      }
+    },
+    {
+      "lock_key": "nanoid",
+      "name": "nanoid",
+      "version": "3.3.20",
+      "integrity": "sha512-uKdg2G3GNCKQn9byYOpxbGqrT2fGO5KRt5J/8b3pok8rT6qxGWF6hxMyJiEYtAf+FVyYuD9hRaDqX5uPFYJ4ZQ==",
+      "license": "MIT",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": "ai/nanoid"
+    },
+    {
+      "lock_key": "picocolors",
+      "name": "picocolors",
+      "version": "1.1.1",
+      "integrity": "sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==",
+      "license": "ISC",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": "alexeyraspopov/picocolors"
+    },
+    {
+      "lock_key": "picomatch",
+      "name": "picomatch",
+      "version": "4.0.7",
+      "integrity": "sha512-qcJu88Q2IWqJsDD529JKMdwGm/dvInW4HvQnRwiH9JtihJvzGOscDtHE3x1pBKeUOTysQ8kVmLnJ2kJu7yhcGA==",
+      "license": "MIT",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": "micromatch/picomatch"
+    },
+    {
+      "lock_key": "playwright-core",
+      "name": "playwright-core",
+      "version": "1.64.1",
+      "integrity": "sha512-BC4s8y6SEVA6Q1rSxZTto8hI1KUI3xXlHGZgvGqP4IqPdI/a6FX9H29IDNz7vKo9l21b6LfYosScPL6M3xxyDQ==",
+      "license": "Apache-2.0",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/microsoft/playwright.git"
+      }
+    },
+    {
+      "lock_key": "postcss",
+      "name": "postcss",
+      "version": "8.5.32",
+      "integrity": "sha512-LJlKCCAUFKOuZxipUdYw1NzIITEsPcgyOG9LkvRJvuKj/bRzbuRY0ARXvL0pWGpsZvn8jku+LMep2eU0seHp8g==",
+      "license": "MIT",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": "postcss/postcss"
+    },
+    {
+      "lock_key": "react",
+      "name": "react",
+      "version": "19.3.1",
+      "integrity": "sha512-QNhWdt7nrgVWWQG58QuGsAR3jv3Hbe4mb4vz7w2csnHavciZJgda1CPNaldF6eVxv90ud3jUXpKlHL69gO38yw==",
+      "license": "MIT",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/react/react.git",
+        "directory": "packages/react"
+      }
+    },
+    {
+      "lock_key": "react-dom",
+      "name": "react-dom",
+      "version": "19.3.1",
+      "integrity": "sha512-Y0bARz53lhEC1NMCASs0/j+faB/zqt3R8hpvg1e8+61ZVJ4UL0UdC4cBbXfZMcIuhrfgeILTLe+ZeBCavQPtKQ==",
+      "license": "MIT",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/react/react.git",
+        "directory": "packages/react-dom"
+      }
+    },
+    {
+      "lock_key": "rolldown",
+      "name": "rolldown",
+      "version": "1.2.16",
+      "integrity": "sha512-bWvlMpFKiTfDKfnK7FC2MPgPeWCf/Kpwsq49ApdW+FQaBZb6O6dZ4MAPbPUjp7hYQrw/RobqCzn64BRrQecGHw==",
+      "license": "MIT",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rolldown/rolldown.git",
+        "directory": "packages/rolldown"
+      }
+    },
+    {
+      "lock_key": "scheduler",
+      "name": "scheduler",
+      "version": "0.28.0",
+      "integrity": "sha512-juorfCmIkIw8tT+p5BXSm6PJjQF/ycEYmKyzURCIt/RaZIhL+PulbQ9Yu2z1HdOJDdqDTlxA1+xKBmHXJsczAw==",
+      "license": "MIT",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/react/react.git",
+        "directory": "packages/scheduler"
+      }
+    },
+    {
+      "lock_key": "source-map-js",
+      "name": "source-map-js",
+      "version": "1.2.2",
+      "integrity": "sha512-KGj/8Y43x35aZVDtt+J4mK1hoLGHULMYfSkODJNQjNDC3oW1PqPoxMwo0pLUsWM/UEGzON/NxeHywEfNXNP3Vw==",
+      "license": "BSD-3-Clause",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": "7rulnik/source-map-js"
+    },
+    {
+      "lock_key": "three",
+      "name": "three",
+      "version": "0.186.1",
+      "integrity": "sha512-blFeqb49wRCSGUGj7gtpfnSGHy2lwDk94RhUmS1c/hTby70kvChbWpkJ4Pm1390LqzzvTmzgXKHPEafJwCb8jA==",
+      "license": "MIT",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/mrdoob/three.js"
+      }
+    },
+    {
+      "lock_key": "tinyglobby",
+      "name": "tinyglobby",
+      "version": "0.2.17",
+      "integrity": "sha512-wXR/dYpcqKmfWpEdZjiKJOwCNFndD0DMnrW/cYjVGttEkBfVgcLFHoNrlj47mjOVic9yyNu65alsgF4NQyTa2g==",
+      "license": "MIT",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SuperchupuDev/tinyglobby.git"
+      }
+    },
+    {
+      "lock_key": "typescript",
+      "name": "typescript",
+      "version": "7.0.2",
+      "integrity": "sha512-8FYau96o3NKOhbjKi/qNvG/W5jhzxkbdm5sj9AbZ/5T5sWqn3hJgLfGx27sRKZWTvyzCP8dLRBTf5tBTSRVUNA==",
+      "license": "Apache-2.0",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/microsoft/TypeScript.git"
+      }
+    },
+    {
+      "lock_key": "undici-types",
+      "name": "undici-types",
+      "version": "8.9.0",
+      "integrity": "sha512-KTDyRTYX8sWmKXAikPHHSyc63CRPETMctyjKFupcC6OBLXT3xsN0e9aF7m+mIXutFWpUXuedtowG7iLOzp0kQg==",
+      "license": "MIT",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nodejs/undici.git"
+      }
+    },
+    {
+      "lock_key": "vite",
+      "name": "vite",
+      "version": "8.3.6",
+      "integrity": "sha512-UI7dK29NnS54Fk+mmo7o+jI6U8Fp7hDl+X5Q1k45WH+d4dSlbLVUETGQ+hfkNgvLQGyoElPj837nZyv4MBc0VA==",
+      "license": "MIT",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vitejs/vite.git",
+        "directory": "packages/vite"
+      }
+    },
+    {
+      "lock_key": "zustand",
+      "name": "zustand",
+      "version": "5.0.16",
+      "integrity": "sha512-Uv7e327ihlCfayfja3hDc0M64Upev1LWBKpRobdK4NyovDDPeeX4imWXc/wzC1yc6fkYPoAY/ncKVPAs2jrtQw==",
+      "license": "MIT",
+      "evidence": "INSTALLED_PACKAGE_METADATA",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pmndrs/zustand.git"
+      }
+    }
+  ],
+  "web_unresolved": [],
+  "observed_at_utc": "2026-11-10T18:39:16.353127+00:00"
+}

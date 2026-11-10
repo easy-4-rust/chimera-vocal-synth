@@ -1,0 +1,82 @@
+{
+  "baseline": "5ab44de236b0eb384ec4d81ec216e0d0928a9f7a",
+  "files": 244,
+  "bytes": 9727245,
+  "by_category": {
+    "root-config-or-documentation": 13,
+    "rust-source-test-tool": 83,
+    "generated-calibration-table": 4,
+    "golden-fixture-or-documentation": 21,
+    "documentation-or-reference": 29,
+    "bundled-pronunciation-data": 2,
+    "bundled-font-or-license": 6,
+    "browser-source-or-asset": 61,
+    "browser-test": 10,
+    "tool-or-generator": 15
+  },
+  "by_extension": {
+    "<none>": 2,
+    ".md": 11,
+    ".lock": 2,
+    ".toml": 4,
+    ".rs": 80,
+    ".json": 18,
+    ".f32": 9,
+    ".html": 8,
+    ".ts": 70,
+    ".otf": 4,
+    ".txt": 3,
+    ".gz": 1,
+    ".woff2": 2,
+    ".tsx": 25,
+    ".css": 1,
+    ".tsv": 1,
+    ".sh": 2,
+    ".py": 1
+  },
+  "cargo_members": [
+    "crates/chimera",
+    "crates/chimera-wasm",
+    "crates/chimera-cli"
+  ],
+  "cargo_locked_packages": 26,
+  "prod_direct_web_dependencies": 4,
+  "dev_direct_web_dependencies": 8,
+  "tracked_assets_sha256": "331df73b50d07c101d1fd76cd449dfe0f7ddc8c5de565f340fb39c756868c095",
+  "large_files": [
+    {
+      "path": "crates/chimera/tests/golden/analysis.json",
+      "size": 1052369
+    },
+    {
+      "path": "crates/chimera/tests/golden/creatures.f32",
+      "size": 1072896
+    }
+  ],
+  "license_files": [
+    "LICENSE",
+    "public/data/CMUDICT-LICENSE.txt",
+    "public/fonts/AVHERSHEY-LICENSE.txt",
+    "public/fonts/OFL.txt"
+  ],
+  "binary_or_media": [
+    "crates/chimera/tests/golden/analysis-voice-frame.f32",
+    "crates/chimera/tests/golden/beatbox-bar.f32",
+    "crates/chimera/tests/golden/creatures.f32",
+    "crates/chimera/tests/golden/voice-artic-sweep.f32",
+    "crates/chimera/tests/golden/voice-release-cancel.f32",
+    "crates/chimera/tests/golden/voice-speech-child.f32",
+    "crates/chimera/tests/golden/voice-speech-female-96k.f32",
+    "crates/chimera/tests/golden/voice-speech-male.f32",
+    "crates/chimera/tests/golden/voice-sustain-male.f32",
+    "docs/mockups/gen/fonts/AVHersheySimplexLight.otf",
+    "docs/mockups/gen/fonts/AVHersheySimplexMedium.otf",
+    "public/data/cmudict.txt.gz",
+    "public/fonts/AVHersheySimplexLight.otf",
+    "public/fonts/AVHersheySimplexMedium.otf",
+    "public/fonts/archivo-latin-ext.woff2",
+    "public/fonts/archivo-latin.woff2"
+  ],
+  "workflows": [],
+  "codegraph_present": false
+}

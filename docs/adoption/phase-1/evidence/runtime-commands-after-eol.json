@@ -1,0 +1,42 @@
+[
+  {
+    "label": "targeted-regression",
+    "argv": [
+      "cargo",
+      "test",
+      "--locked",
+      "-p",
+      "chimera-cli",
+      "--test",
+      "cli",
+      "calibrate_consonants_reproduces_the_committed_table",
+      "--",
+      "--exact"
+    ],
+    "exit_code": 0,
+    "started_at_utc": "2026-11-10T18:34:33.516861+00:00",
+    "ended_at_utc": "2026-11-10T18:34:44.899198+00:00"
+  },
+  {
+    "label": "bun-run-test-after-eol",
+    "argv": [
+      "D:\\Program Files\\nodejs\\node_modules\\bun\\bin\\bun.exe",
+      "run",
+      "test"
+    ],
+    "exit_code": 1,
+    "started_at_utc": "2026-11-10T18:34:44.899198+00:00",
+    "ended_at_utc": "2026-11-10T18:35:38.195472+00:00"
+  },
+  {
+    "label": "bun-run-typecheck-after-eol",
+    "argv": [
+      "D:\\Program Files\\nodejs\\node_modules\\bun\\bin\\bun.exe",
+      "run",
+      "typecheck"
+    ],
+    "exit_code": 0,
+    "started_at_utc": "2026-11-10T18:35:38.195472+00:00",
+    "ended_at_utc": "2026-11-10T18:35:38.488358+00:00"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "cargo_groups": 29,
+  "passed": 107,
+  "failed": 0,
+  "ignored": 2,
+  "bun_summary": [
+    "31 pass",
+    "0 fail"
+  ],
+  "ignored_tests": [
+    "test no_area_jumps_as_a_protruded_lower_lip_tucks ... ignored, known, not yet fixed: run with --ignored. Found by the batch-2 review; already on main (0.30 cm²)",
+    "test calibrate_vowels_reproduces_the_committed_table ... ignored, slow (~100 s): cargo test -p chimera-cli --release -- --ignored"
+  ],
+  "warnings": [
+    "warning: variable does not need to be mutable",
+    "warning: variable does not need to be mutable",
+    "warning: `chimera` (test \"golden_planning\") generated 1 warning (run `cargo fix --test \"golden_planning\" -p chimera` to apply 1 suggestion)",
+    "warning: `chimera` (test \"voice_source\") generated 1 warning (run `cargo fix --test \"voice_source\" -p chimera` to apply 1 suggestion)"
+  ],
+  "native_wasm_parity_test_passed": true,
+  "wasm_build_passed": true,
+  "typecheck_exit_code": 0
+}

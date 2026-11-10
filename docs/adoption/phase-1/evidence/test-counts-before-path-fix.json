@@ -1,0 +1,21 @@
+{
+  "bun-run-test": {
+    "cargo_groups": 25,
+    "passed": 105,
+    "failed": 1,
+    "ignored": 2,
+    "bun_summary": []
+  },
+  "bun-run-test-after-eol": {
+    "cargo_groups": 29,
+    "passed": 107,
+    "failed": 0,
+    "ignored": 2,
+    "bun_summary": [
+      "13 pass",
+      "1 skip",
+      "5 fail",
+      "5 errors"
+    ]
+  }
+}

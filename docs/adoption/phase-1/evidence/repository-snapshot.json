@@ -1,0 +1,65 @@
+{
+  "observed_at_utc": "2026-11-10T18:27:34.171115+00:00",
+  "repository": {
+    "id": 1450207072,
+    "full_name": "easy-4-rust/chimera-vocal-synth",
+    "fork": true,
+    "private": false,
+    "default_branch": "main",
+    "permissions": {
+      "admin": true,
+      "maintain": true,
+      "push": true,
+      "triage": true,
+      "pull": true
+    },
+    "archived": false,
+    "parent": "jamesondh/chimera-vocal-synth",
+    "source": "jamesondh/chimera-vocal-synth"
+  },
+  "remote_branches": [
+    {
+      "name": "main",
+      "commit": {
+        "sha": "5ab44de236b0eb384ec4d81ec216e0d0928a9f7a",
+        "url": "https://api.github.com/repos/easy-4-rust/chimera-vocal-synth/commits/5ab44de236b0eb384ec4d81ec216e0d0928a9f7a"
+      },
+      "protected": false,
+      "protection": {
+        "enabled": false,
+        "required_status_checks": {
+          "enforcement_level": "off",
+          "contexts": [],
+          "checks": []
+        }
+      },
+      "protection_url": "https://api.github.com/repos/easy-4-rust/chimera-vocal-synth/branches/main/protection"
+    },
+    {
+      "name": "openspec/adopt-chimera-vocal-synth",
+      "commit": {
+        "sha": "6fcb80350a0e0386135a75f40ccd66da370945e5",
+        "url": "https://api.github.com/repos/easy-4-rust/chimera-vocal-synth/commits/6fcb80350a0e0386135a75f40ccd66da370945e5"
+      },
+      "protected": false,
+      "protection": {
+        "enabled": false,
+        "required_status_checks": {
+          "enforcement_level": "off",
+          "contexts": [],
+          "checks": []
+        }
+      },
+      "protection_url": "https://api.github.com/repos/easy-4-rust/chimera-vocal-synth/branches/openspec/adopt-chimera-vocal-synth/protection"
+    }
+  ],
+  "rulesets": [],
+  "baseline": "5ab44de236b0eb384ec4d81ec216e0d0928a9f7a",
+  "planning_head": "6fcb80350a0e0386135a75f40ccd66da370945e5",
+  "integration_start": "6fcb80350a0e0386135a75f40ccd66da370945e5",
+  "upstream_observed": "d361a82ce1b18d0ac19001aab19169ff2c1eb9e8",
+  "merge_base": "5ab44de236b0eb384ec4d81ec216e0d0928a9f7a",
+  "ahead_behind": "9\t19",
+  "remotes": "origin\thttps://github.com/easy-4-rust/chimera-vocal-synth.git (fetch)\norigin\thttps://github.com/easy-4-rust/chimera-vocal-synth.git (push)\nupstream\thttps://github.com/jamesondh/chimera-vocal-synth.git (fetch)\nupstream\thttps://github.com/jamesondh/chimera-vocal-synth.git (push)",
+  "tree_sha": "9ec570d779b24fe73d8d764f6ec04fa3b5147cb8"
+}

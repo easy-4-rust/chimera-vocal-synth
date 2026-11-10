@@ -1,0 +1,11 @@
+bun test v1.4.3 (c6da4a4d3)
+
+
+tests\wasm-engine.test.ts:
+(pass) wasm engine > requires the built WASM artifact at a native filesystem path [0.02ms]
+
+ 1 pass
+ 2 filtered out
+ 0 fail
+ 1 expect() calls
+Ran 1 test across 1 file. [27.00ms]

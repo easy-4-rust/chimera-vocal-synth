@@ -1,0 +1,23 @@
+{
+  "verified_at_utc": "2026-11-10T18:46:34.210787+00:00",
+  "baseline_file_count": 244,
+  "all_git_blob_hashes_verified": true,
+  "tracked_assets_sha256": "331df73b50d07c101d1fd76cd449dfe0f7ddc8c5de565f340fb39c756868c095",
+  "task_count": 85,
+  "checked_tasks": 19,
+  "checked_range": "T001-T019",
+  "markdown_links_valid": true,
+  "json_files_valid": 18,
+  "checksummed_artifacts": 49,
+  "product_source_and_locked_dependencies_unchanged": true,
+  "main_unchanged": true,
+  "review": "Inline diff and evidence review; no independent reviewer or remote PR approval claimed",
+  "runtime_result_scope": "Windows AMD64 only; ignored tests and known upstream risks remain open",
+  "staged_file_count": 51,
+  "staged_allowlist_valid": true,
+  "canonical_git_blob_manifest": true,
+  "secret_format_scan": "No matches for selected private-key/AWS/GitHub-token patterns; not a full security audit",
+  "unstaged_changes": false,
+  "git_diff_cached_check_exit_code": 0,
+  "log_normalization": "machine paths redacted; trailing whitespace removed; outcomes and error content preserved"
+}

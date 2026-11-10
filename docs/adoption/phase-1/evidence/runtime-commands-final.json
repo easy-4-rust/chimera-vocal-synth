@@ -1,0 +1,37 @@
+[
+  {
+    "label": "windows-path-regression-green",
+    "argv": [
+      "D:\\Program Files\\nodejs\\node_modules\\bun\\bin\\bun.exe",
+      "test",
+      "tests/wasm-engine.test.ts",
+      "--test-name-pattern",
+      "requires the built WASM artifact"
+    ],
+    "exit_code": 0,
+    "started_at_utc": "2026-11-10T18:38:38.545891+00:00",
+    "ended_at_utc": "2026-11-10T18:38:38.592707+00:00"
+  },
+  {
+    "label": "bun-run-test-final",
+    "argv": [
+      "D:\\Program Files\\nodejs\\node_modules\\bun\\bin\\bun.exe",
+      "run",
+      "test"
+    ],
+    "exit_code": 0,
+    "started_at_utc": "2026-11-10T18:38:38.592707+00:00",
+    "ended_at_utc": "2026-11-10T18:40:12.718225+00:00"
+  },
+  {
+    "label": "bun-run-typecheck-final",
+    "argv": [
+      "D:\\Program Files\\nodejs\\node_modules\\bun\\bin\\bun.exe",
+      "run",
+      "typecheck"
+    ],
+    "exit_code": 0,
+    "started_at_utc": "2026-11-10T18:40:12.718225+00:00",
+    "ended_at_utc": "2026-11-10T18:40:14.660333+00:00"
+  }
+]

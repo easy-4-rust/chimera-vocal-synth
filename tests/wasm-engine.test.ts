@@ -5,10 +5,11 @@
  */
 import { describe, expect, test } from "bun:test";
 import { readFileSync, existsSync } from "node:fs";
+import { fileURLToPath } from "node:url";
 import { writeGestures, CONTROL_KEYS, GESTURE_RECORD } from "../src/wasm/wire.ts";
 import type { Gesture } from "../src/wasm/types.ts";
 
-const ROOT = new URL("..", import.meta.url).pathname;
+const ROOT = fileURLToPath(new URL("..", import.meta.url));
 const WASM = `${ROOT}target/wasm32-unknown-unknown/release/chimera_wasm.wasm`;
 const SOURCE_KEYS = ["f0", "glide", "pressure", "breathiness", "tension", "fry", "roughness", "vibratoDepth", "vibratoRate", "drift", "voiced", "brightness"];
 
@@ -65,6 +66,10 @@ function render(x: Exports, s: { body: string; fsOut: number; samples: number; o
 }
 
 describe("wasm engine", () => {
+  test("requires the built WASM artifact at a native filesystem path", () => {
+    // A malformed Windows file URL must fail instead of silently skipping the parity test.
+    expect(existsSync(WASM)).toBe(true);
+  });
   test.skipIf(!existsSync(WASM))("renders the voice scenarios bit-identically to the native build", () => {
     const proc = Bun.spawnSync(["cargo", "run", "-q", "--release", "-p", "chimera-wasm", "--example", "render_scenarios"], { cwd: ROOT });
     expect(proc.exitCode).toBe(0);

@@ -1,0 +1,354 @@
+bun.exe : $ bun run wasm && cargo test --workspace && bun test tests
+At D:\Program Files\nodejs\bun.ps1:14 char:3
++   & "$basedir/node_modules/bun/bin/bun.exe"   $args
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ($ bun run wasm ... bun test tests:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+$ cargo build -p chimera-wasm --release --target wasm32-unknown-unknown && cp target/wasm32-unknown-unknown/release/chi
+mera_wasm.wasm src/wasm/chimera.wasm
+   Compiling proc-macro2 v1.0.107
+   Compiling quote v1.0.47
+   Compiling unicode-ident v1.0.27
+   Compiling serde_core v1.0.229
+   Compiling zmij v1.0.23
+   Compiling libm v0.2.16
+   Compiling serde_json v1.0.154
+   Compiling equivalent v1.0.3
+   Compiling serde v1.0.229
+   Compiling hashbrown v0.17.1
+   Compiling memchr v2.8.3
+   Compiling itoa v1.0.18
+   Compiling foldhash v0.2.0
+   Compiling indexmap v2.14.2
+   Compiling syn v3.0.9
+   Compiling serde_derive v1.0.229
+   Compiling chimera v0.1.0 (<CHECKOUT>\crates\chimera)
+   Compiling chimera-wasm v0.1.0 (<CHECKOUT>\crates\chimera
+-wasm)
+    Finished `release` profile [optimized] target(s) in 22.45s
+   Compiling proc-macro2 v1.0.107
+   Compiling quote v1.0.47
+   Compiling unicode-ident v1.0.27
+   Compiling serde_core v1.0.229
+   Compiling zmij v1.0.23
+   Compiling libm v0.2.16
+   Compiling serde v1.0.229
+   Compiling hashbrown v0.17.1
+   Compiling serde_json v1.0.154
+   Compiling equivalent v1.0.3
+   Compiling memchr v2.8.3
+   Compiling itoa v1.0.18
+   Compiling foldhash v0.2.0
+   Compiling crc32fast v1.5.4
+   Compiling simd-adler32 v0.3.10
+   Compiling cfg-if v1.0.5
+   Compiling adler2 v2.0.1
+   Compiling miniz_oxide v0.9.1
+   Compiling indexmap v2.14.2
+   Compiling flate2 v1.1.10
+   Compiling syn v3.0.9
+   Compiling serde_derive v1.0.229
+   Compiling chimera v0.1.0 (<CHECKOUT>\crates\chimera)
+   Compiling chimera-wasm v0.1.0 (<CHECKOUT>\crates\chimera
+-wasm)
+warning: variable does not need to be mutable
+   --> crates\chimera\tests\golden_planning.rs:223:9
+    |
+223 |     let mut cmp = |path: &str, want: &mut Value, got: Value, st: &mut Stats| if bless_it { *want = got } else { c
+mp(path, want, &go...
+    |         ----^^^
+    |         |
+    |         help: remove this `mut`
+    |
+    = note: `#[warn(unused_mut)]` (part of `#[warn(unused)]`) on by default
+
+warning: variable does not need to be mutable
+  --> crates\chimera\tests\voice_source.rs:32:9
+   |
+32 |     let mut tilt = |b: f64| {
+   |         ----^^^^
+   |         |
+   |         help: remove this `mut`
+   |
+   = note: `#[warn(unused_mut)]` (part of `#[warn(unused)]`) on by default
+
+   Compiling chimera-cli v0.1.0 (<CHECKOUT>\crates\chimera-
+cli)
+warning: `chimera` (test "voice_source") generated 1 warning (run `cargo fix --test "voice_source" -p chimera` to apply
+ 1 suggestion)
+warning: `chimera` (test "golden_planning") generated 1 warning (run `cargo fix --test "golden_planning" -p chimera` to
+ apply 1 suggestion)
+    Finished `test` profile [optimized + debuginfo] target(s) in 28.98s
+     Running unittests src\lib.rs (target\debug\deps\chimera-ca0ae0217df25c8c.exe)
+
+running 6 tests
+test control::score::tests::labels_cut_at_char_boundaries ... ok
+test control::score::tests::blend_all_equals_per_key_blend ... ok
+test math::tests::js_min_max_follow_javascript ... ok
+test math::tests::js_round_halves_up ... ok
+test sources::syrinx::tests::table_is_filled ... ok
+test math::tests::mulberry32_matches_typescript ... ok
+
+test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests\airway.rs (target\debug\deps\airway-d2a81350da7c4983.exe)
+
+running 3 tests
+test uniform_tube_resonances_match_quarter_wave_theory ... ok
+test fdtd_impulse_response_agrees_with_frequency_domain_model ... ok
+test fdtd_stays_stable_with_a_non_uniform_tube_and_tiny_constriction ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.11s
+
+     Running tests\airway_adversarial.rs (target\debug\deps\airway_adversarial-77e21311882587d0.exe)
+
+running 6 tests
+test sealed_cavity_compression_follows_the_linearised_adiabatic_law ... ok
+test fast_but_articulator_limited_closure_gives_bounded_piston_pressure ... ok
+test steady_flow_through_a_short_constriction_obeys_bernoulli_with_jet_loss ... ok
+test a_realistic_sliding_closure_with_trapped_pressure_releases_without_spikes ... ok
+test formant_bandwidths_agree_between_fdtd_and_the_frequency_domain_model ... ok
+test nearly_closed_three_way_junction_stays_stable_at_the_working_cfl ... ok
+
+test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.10s
+
+     Running tests\analysis.rs (target\debug\deps\analysis-9334694af5f024a3.exe)
+
+running 2 tests
+test lpc_recovers_known_formants ... ok
+test yin_recovers_f0 ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests\beat_alloc.rs (target\debug\deps\beat_alloc-54d47cbb282606ab.exe)
+
+running 1 test
+test the_beat_player_does_not_allocate ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests\beatbox.rs (target\debug\deps\beatbox-3e662e017ee3b861.exe)
+
+running 7 tests
+test parses_symbols_rests_notes_accents_and_bar_lines ... ok
+test format_and_parse_round_trip_every_preset ... ok
+test every_sound_builds_gestures_that_start_before_and_end_after_its_hit ... ok
+test after_the_voice_is_replaced_steps_not_yet_heard_are_scheduled_again_at_their_times ... ok
+test the_playhead_follows_the_scheduled_hits_swing_included_and_nothing_when_stopped ... ok
+test tempo_changes_keep_the_next_steps_time ... ok
+test schedules_each_step_once_on_the_grid_with_swing_on_the_off_beats ... ok
+
+test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests\body_mix.rs (target\debug\deps\body_mix-573501b582373043.exe)
+
+running 4 tests
+test deserializes_from_a_name_or_a_mix ... ok
+test presets_are_exact_and_weights_sum_to_one ... ok
+test blends_land_between_the_presets ... ok
+test a_blended_voice_plays ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.12s
+
+     Running tests\consonant_artifacts.rs (target\debug\deps\consonant_artifacts-bb4d1c74b44978a2.exe)
+
+running 3 tests
+test the_p_of_sharp_does_not_pop ... ok
+test fading_sounds_do_not_buzz_at_the_control_rate ... ok
+test an_f_does_not_click ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 2.62s
+
+     Running tests\creature_realtime.rs (target\debug\deps\creature_realtime-06e59e9a20e8459b.exe)
+
+running 3 tests
+test creature_voice_is_send ... ok
+test every_call_key_resolves ... ok
+test warm_creature_voice_does_not_allocate ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.62s
+
+     Running tests\engine.rs (target\debug\deps\engine-ec96f027f998c696.exe)
+
+running 2 tests
+test engine_plays_the_beatbox_bar_like_the_typescript_worklet ... ok
+test output_does_not_depend_on_the_host_block_size ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 3.16s
+
+     Running tests\english.rs (target\debug\deps\english-d03770e41d3e830a.exe)
+
+running 5 tests
+test dictionary_words_with_stress_and_allophones ... ok
+test punctuation_makes_phrases_and_question_intonation ... ok
+test numbers_are_spelled_out_and_unknown_words_fall_back_to_rules ... ok
+test a_phrase_lists_the_words_said_one_per_word_end ... ok
+test words_that_are_also_object_property_names_do_not_break_the_front_end ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.06s
+
+     Running tests\geometry_continuity.rs (target\debug\deps\geometry_continuity-f93a04f62a1c8266.exe)
+
+running 6 tests
+test no_area_jumps_as_a_protruded_lower_lip_tucks ... ignored, known, not yet fixed: run with --ignored. Found by the batch-2 review; already on main (0.30 cm²)
+test refinement_finds_a_small_jump_beside_a_steep_ramp ... ok
+test a_ray_grazing_a_polyline_vertex_sees_no_tissue_layer_that_is_not_there ... ok
+test no_area_jumps_on_the_way_between_calibrated_vowels ... ok
+test no_area_jumps_anywhere_in_the_articulators_speech_ranges ... ok
+test no_area_jumps_as_the_lower_lip_tucks_for_f ... ok
+
+test result: ok. 5 passed; 0 failed; 1 ignored; 0 measured; 0 filtered out; finished in 2.48s
+
+     Running tests\golden_analysis.rs (target\debug\deps\golden_analysis-b94a24ad63cee0e4.exe)
+
+running 1 test
+test analysis_matches_typescript ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s
+
+     Running tests\golden_creatures.rs (target\debug\deps\golden_creatures-d3f6e929db9eebc0.exe)
+
+running 4 tests
+test defs_serialise_like_typescript ... ok
+test preview_telemetry_serialises_like_typescript ... ok
+test valves_match_typescript ... ok
+test creatures_match_typescript ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 7.40s
+
+     Running tests\golden_geometry.rs (target\debug\deps\golden_geometry-23a5b84f1ffe61ce.exe)
+
+running 1 test
+test geometry_matches_typescript ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+     Running tests\golden_phonetics_text.rs (target\debug\deps\golden_phonetics_text-bd4b796514aaf4c3.exe)
+
+running 5 tests
+test songs_and_vowel_data_match_typescript ... ok
+test ipa_matches_typescript ... ok
+test phrases_match_typescript ... ok
+test syllables_match_typescript ... ok
+test g2p_matches_typescript ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.07s
+
+     Running tests\golden_planning.rs (target\debug\deps\golden_planning-c78b33f63e1a349d.exe)
+
+running 9 tests
+test beat_notation_matches_typescript ... ok
+test beat_player_matches_typescript ... ok
+test phrases_match_typescript ... ok
+test klatt_durations_match_typescript ... ok
+test beat_sounds_match_typescript ... ok
+test live_notes_match_typescript ... ok
+test songs_match_typescript ... ok
+test utterances_match_typescript ... ok
+test beatbox_bar_audio_matches_typescript ... ok
+
+test result: ok. 9 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.40s
+
+     Running tests\golden_voice.rs (target\debug\deps\golden_voice-98b1c09364e9ae3b.exe)
+
+running 1 test
+test voice_matches_typescript ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 6.03s
+
+     Running tests\live_control.rs (target\debug\deps\live_control-b32fa8b04745cb1b.exe)
+
+running 1 test
+test a_released_note_never_rises_again ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests\sing_fast.rs (target\debug\deps\sing_fast-62e3b22e65cd1fbd.exe)
+
+running 5 tests
+test notes_with_room_keep_their_consonants ... ok
+test too_many_consonants_degrade_gently ... ok
+test onset_consonants_carry_the_new_pitch ... ok
+test a_delayed_cluster_closure_stays_inside_a_short_sung_stop ... ok
+test fast_runs_land_on_the_beat ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests\speech_quality.rs (target\debug\deps\speech_quality-6a826644242a2faf.exe)
+
+running 4 tests
+test the_contact_model_engages_smoothly ... ok
+test nasality_does_not_spread_into_oral_vowels ... ok
+test phrase_final_lengthening_and_stress_contrast ... ok
+test a_phrase_ends_in_silence ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.63s
+
+     Running tests\syllables.rs (target\debug\deps\syllables-f09535aeda2fc856.exe)
+
+running 3 tests
+test spelling_splits_to_match ... ok
+test maximal_onset_with_legal_english_clusters ... ok
+test lyrics_words_melisma_phrase_ends_unreduced_function_words ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests\voice_source.rs (target\debug\deps\voice_source-686b4d3ea30e704a.exe)
+
+running 2 tests
+test a_pressed_voice_still_closes_abruptly ... ok
+test brightness_tilts_the_voice_and_its_default_changes_nothing ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.47s
+
+     Running unittests src\main.rs (target\debug\deps\chimera-6b19ba77e4458b56.exe)
+
+running 16 tests
+test compare::score::tests::a_song_reads_back_from_score_json_as_it_was ... ok
+test compare::score::tests::every_fifth_song_is_held_out_in_both_keys ... ok
+test compare::score::tests::the_margin_is_exact_in_thousandths ... ok
+test compare::score::tests::a_vibrato_that_stops_reading_as_vibrato_takes_no_gap_with_it ... ok
+test compare::tests::a_note_with_no_spectrum_has_no_cepstrum ... ok
+test js::tests::number_strings_match_js ... ok
+test compare::score::tests::a_gap_costs_its_excess_over_one_singer_spread ... ok
+test js::tests::stringify_keeps_order_and_js_layout ... ok
+test js::tests::to_fixed_matches_js ... ok
+test compare::score::tests::a_term_with_nothing_in_common_keeps_its_weight ... ok
+test compare::score::tests::notes_that_stop_being_measured_take_nothing_with_them ... ok
+test compare::score::tests::the_verdict_wants_a_lower_score_and_every_guard_kept ... ok
+test compare::tests::vibrato_is_absent_from_a_straight_tone_with_pitch_jitter_or_a_scoop ... ok
+test compare::tests::h1h2_reads_the_harmonic_ratio_whatever_the_vibrato ... ok
+test compare::tests::vibrato_reads_rate_and_depth_of_a_periodic_modulation ... ok
+test compare::tests::periodic_modulation_outside_the_vibrato_range_is_not_vibrato ... ok
+
+test result: ok. 16 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.04s
+
+     Running tests\cli.rs (target\debug\deps\cli-e4817720f252f96e.exe)
+
+running 8 tests
+test calibrate_vowels_reproduces_the_committed_table ... ignored, slow (~100 s): cargo test -p chimera-cli --release -- --ignored
+test compare_csd_refuses_an_unmapped_phoneme ... ok
+test calibrate_consonants_reproduces_the_committed_table ... FAILED
+test render_speech_writes_a_sounding_wav_of_the_planned_length ... ok
+test compare_csd_sings_the_annotation_on_the_recordings_timeline ... ok
+test render_notes_artic_tracks_follow_the_sound_without_changing_it ... ok
+test render_notes_tele_records_the_live_telemetry_without_changing_the_sound ... ok
+test compare_csd_scores_training_and_held_out_songs_and_judges_a_rerun ... ok
+
+failures:
+
+---- calibrate_consonants_reproduces_the_committed_table stdout ----
+
+thread 'calibrate_consonants_reproduces_the_committed_table' (57788) panicked at crates\chimera-cli\tests\cli.rs:84:5:
+calibrate consonants differs from the committed table
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+failures:
+    calibrate_consonants_reproduces_the_committed_table
+
+test result: FAILED. 6 passed; 1 failed; 1 ignored; 0 measured; 0 filtered out; finished in 3.54s
+
+error: test failed, to rerun pass `-p chimera-cli --test cli`
+error: script "test" exited with code 101

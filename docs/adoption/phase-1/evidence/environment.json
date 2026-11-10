@@ -1,0 +1,42 @@
+{
+  "observed_at_utc": "2026-11-10T18:39:16.353127+00:00",
+  "os": "Windows-11-10.0.26200-SP0",
+  "machine": "AMD64",
+  "python": "3.12.14",
+  "checkout_policy": "isolated linked Git worktree; original checkout remains on main",
+  "git_author_identity_source": "existing user Git configuration, not modified",
+  "rustc": {
+    "exit_code": 0,
+    "stdout": "rustc 1.99.0 (b940084d7 2026-09-28)\nbinary: rustc\ncommit-hash: b940084d7eb6a299eb4bfeb8e34901bc051e7ac4\ncommit-date: 2026-09-28\nhost: x86_64-pc-windows-msvc\nrelease: 1.99.0\nLLVM version: 23.1.1",
+    "stderr": ""
+  },
+  "cargo": {
+    "exit_code": 0,
+    "stdout": "cargo 1.99.0 (5f94df478 2026-08-27)",
+    "stderr": ""
+  },
+  "git": {
+    "exit_code": 0,
+    "stdout": "git version 2.55.0.windows.5",
+    "stderr": ""
+  },
+  "rust_targets": {
+    "exit_code": 0,
+    "stdout": "wasm32-unknown-unknown\nx86_64-pc-windows-msvc",
+    "stderr": ""
+  },
+  "bun": {
+    "exit_code": 0,
+    "stdout": "1.4.3",
+    "stderr": ""
+  },
+  "node": {
+    "exit_code": 0,
+    "stdout": "v24.14.1",
+    "stderr": ""
+  },
+  "openspec": {
+    "version": "1.14.0",
+    "source": "observed CLI --version during setup; strict validator output in openspec-validation.txt"
+  }
+}

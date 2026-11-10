@@ -1,0 +1,365 @@
+
+running 6 tests
+test math::tests::js_min_max_follow_javascript ... ok
+test control::score::tests::blend_all_equals_per_key_blend ... ok
+test math::tests::js_round_halves_up ... ok
+test math::tests::mulberry32_matches_typescript ... ok
+test control::score::tests::labels_cut_at_char_boundaries ... ok
+test sources::syrinx::tests::table_is_filled ... ok
+
+test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 3 tests
+test uniform_tube_resonances_match_quarter_wave_theory ... ok
+test fdtd_impulse_response_agrees_with_frequency_domain_model ... ok
+test fdtd_stays_stable_with_a_non_uniform_tube_and_tiny_constriction ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.09s
+
+
+running 6 tests
+test sealed_cavity_compression_follows_the_linearised_adiabatic_law ... ok
+test fast_but_articulator_limited_closure_gives_bounded_piston_pressure ... ok
+test steady_flow_through_a_short_constriction_obeys_bernoulli_with_jet_loss ... ok
+test a_realistic_sliding_closure_with_trapped_pressure_releases_without_spikes ... ok
+test formant_bandwidths_agree_between_fdtd_and_the_frequency_domain_model ... ok
+test nearly_closed_three_way_junction_stays_stable_at_the_working_cfl ... ok
+
+test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.10s
+
+
+running 2 tests
+test lpc_recovers_known_formants ... ok
+test yin_recovers_f0 ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 1 test
+test the_beat_player_does_not_allocate ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 7 tests
+test parses_symbols_rests_notes_accents_and_bar_lines ... ok
+test format_and_parse_round_trip_every_preset ... ok
+test after_the_voice_is_replaced_steps_not_yet_heard_are_scheduled_again_at_their_times ... ok
+test every_sound_builds_gestures_that_start_before_and_end_after_its_hit ... ok
+test schedules_each_step_once_on_the_grid_with_swing_on_the_off_beats ... ok
+test tempo_changes_keep_the_next_steps_time ... ok
+test the_playhead_follows_the_scheduled_hits_swing_included_and_nothing_when_stopped ... ok
+
+test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 4 tests
+test deserializes_from_a_name_or_a_mix ... ok
+test presets_are_exact_and_weights_sum_to_one ... ok
+test blends_land_between_the_presets ... ok
+test a_blended_voice_plays ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.08s
+
+
+running 3 tests
+test the_p_of_sharp_does_not_pop ... ok
+test fading_sounds_do_not_buzz_at_the_control_rate ... ok
+test an_f_does_not_click ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.49s
+
+
+running 3 tests
+test creature_voice_is_send ... ok
+test every_call_key_resolves ... ok
+test warm_creature_voice_does_not_allocate ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.81s
+
+
+running 2 tests
+test engine_plays_the_beatbox_bar_like_the_typescript_worklet ... ok
+test output_does_not_depend_on_the_host_block_size ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.82s
+
+
+running 5 tests
+test punctuation_makes_phrases_and_question_intonation ... ok
+test dictionary_words_with_stress_and_allophones ... ok
+test numbers_are_spelled_out_and_unknown_words_fall_back_to_rules ... ok
+test a_phrase_lists_the_words_said_one_per_word_end ... ok
+test words_that_are_also_object_property_names_do_not_break_the_front_end ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.04s
+
+
+running 6 tests
+test no_area_jumps_as_a_protruded_lower_lip_tucks ... ignored, known, not yet fixed: run with --ignored. Found by the batch-2 review; already on main (0.30 cm²)
+test refinement_finds_a_small_jump_beside_a_steep_ramp ... ok
+test a_ray_grazing_a_polyline_vertex_sees_no_tissue_layer_that_is_not_there ... ok
+test no_area_jumps_on_the_way_between_calibrated_vowels ... ok
+test no_area_jumps_anywhere_in_the_articulators_speech_ranges ... ok
+test no_area_jumps_as_the_lower_lip_tucks_for_f ... ok
+
+test result: ok. 5 passed; 0 failed; 1 ignored; 0 measured; 0 filtered out; finished in 1.93s
+
+
+running 1 test
+test analysis_matches_typescript ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s
+
+
+running 4 tests
+test defs_serialise_like_typescript ... ok
+test valves_match_typescript ... ok
+test preview_telemetry_serialises_like_typescript ... ok
+test creatures_match_typescript ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 6.49s
+
+
+running 1 test
+test geometry_matches_typescript ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+
+running 5 tests
+test songs_and_vowel_data_match_typescript ... ok
+test ipa_matches_typescript ... ok
+test syllables_match_typescript ... ok
+test phrases_match_typescript ... ok
+test g2p_matches_typescript ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.07s
+
+
+running 9 tests
+test beat_notation_matches_typescript ... ok
+test klatt_durations_match_typescript ... ok
+test beat_player_matches_typescript ... ok
+test beat_sounds_match_typescript ... ok
+test live_notes_match_typescript ... ok
+test phrases_match_typescript ... ok
+test utterances_match_typescript ... ok
+test songs_match_typescript ... ok
+test beatbox_bar_audio_matches_typescript ... ok
+
+test result: ok. 9 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.38s
+
+
+running 1 test
+test voice_matches_typescript ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 5.35s
+
+
+running 1 test
+test a_released_note_never_rises_again ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 5 tests
+test a_delayed_cluster_closure_stays_inside_a_short_sung_stop ... ok
+test notes_with_room_keep_their_consonants ... ok
+test fast_runs_land_on_the_beat ... ok
+test onset_consonants_carry_the_new_pitch ... ok
+test too_many_consonants_degrade_gently ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+
+running 4 tests
+test the_contact_model_engages_smoothly ... ok
+test phrase_final_lengthening_and_stress_contrast ... ok
+test nasality_does_not_spread_into_oral_vowels ... ok
+test a_phrase_ends_in_silence ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.60s
+
+
+running 3 tests
+test spelling_splits_to_match ... ok
+test maximal_onset_with_legal_english_clusters ... ok
+test lyrics_words_melisma_phrase_ends_unreduced_function_words ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 2 tests
+test a_pressed_voice_still_closes_abruptly ... ok
+test brightness_tilts_the_voice_and_its_default_changes_nothing ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.46s
+
+
+running 16 tests
+test js::tests::stringify_keeps_order_and_js_layout ... ok
+test compare::score::tests::every_fifth_song_is_held_out_in_both_keys ... ok
+test compare::score::tests::the_margin_is_exact_in_thousandths ... ok
+test compare::score::tests::a_song_reads_back_from_score_json_as_it_was ... ok
+test js::tests::number_strings_match_js ... ok
+test js::tests::to_fixed_matches_js ... ok
+test compare::tests::a_note_with_no_spectrum_has_no_cepstrum ... ok
+test compare::score::tests::a_gap_costs_its_excess_over_one_singer_spread ... ok
+test compare::score::tests::notes_that_stop_being_measured_take_nothing_with_them ... ok
+test compare::score::tests::a_term_with_nothing_in_common_keeps_its_weight ... ok
+test compare::score::tests::a_vibrato_that_stops_reading_as_vibrato_takes_no_gap_with_it ... ok
+test compare::score::tests::the_verdict_wants_a_lower_score_and_every_guard_kept ... ok
+test compare::tests::vibrato_is_absent_from_a_straight_tone_with_pitch_jitter_or_a_scoop ... ok
+test compare::tests::h1h2_reads_the_harmonic_ratio_whatever_the_vibrato ... ok
+test compare::tests::vibrato_reads_rate_and_depth_of_a_periodic_modulation ... ok
+test compare::tests::periodic_modulation_outside_the_vibrato_range_is_not_vibrato ... ok
+
+test result: ok. 16 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.04s
+
+
+running 8 tests
+test calibrate_vowels_reproduces_the_committed_table ... ignored, slow (~100 s): cargo test -p chimera-cli --release -- --ignored
+test compare_csd_refuses_an_unmapped_phoneme ... ok
+test calibrate_consonants_reproduces_the_committed_table ... ok
+test render_speech_writes_a_sounding_wav_of_the_planned_length ... ok
+test compare_csd_sings_the_annotation_on_the_recordings_timeline ... ok
+test render_notes_tele_records_the_live_telemetry_without_changing_the_sound ... ok
+test render_notes_artic_tracks_follow_the_sound_without_changing_it ... ok
+test compare_csd_scores_training_and_held_out_songs_and_judges_a_rerun ... ok
+
+test result: ok. 7 passed; 0 failed; 1 ignored; 0 measured; 0 filtered out; finished in 3.72s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 1 test
+test the_audio_thread_abi_does_not_allocate ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 2.61s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+bun test v1.4.3 (c6da4a4d3)
+
+$ bun run wasm && cargo test --workspace && bun test tests
+$ cargo build -p chimera-wasm --release --target wasm32-unknown-unknown && cp target/wasm32-unknown-unknown/release/chimera_wasm.wasm src/wasm/chimera.wasm
+    Finished `release` profile [optimized] target(s) in 0.06s
+warning: variable does not need to be mutable
+   --> crates\chimera\tests\golden_planning.rs:223:9
+    |
+223 |     let mut cmp = |path: &str, want: &mut Value, got: Value, st: &mut Stats| if bless_it { *want = got } else { cmp(path, want, &go...
+    |         ----^^^
+    |         |
+    |         help: remove this `mut`
+    |
+    = note: `#[warn(unused_mut)]` (part of `#[warn(unused)]`) on by default
+
+warning: variable does not need to be mutable
+  --> crates\chimera\tests\voice_source.rs:32:9
+   |
+32 |     let mut tilt = |b: f64| {
+   |         ----^^^^
+   |         |
+   |         help: remove this `mut`
+   |
+   = note: `#[warn(unused_mut)]` (part of `#[warn(unused)]`) on by default
+
+warning: `chimera` (test "golden_planning") generated 1 warning (run `cargo fix --test "golden_planning" -p chimera` to apply 1 suggestion)
+warning: `chimera` (test "voice_source") generated 1 warning (run `cargo fix --test "voice_source" -p chimera` to apply 1 suggestion)
+    Finished `test` profile [optimized + debuginfo] target(s) in 0.08s
+     Running unittests src\lib.rs (target\debug\deps\chimera-ca0ae0217df25c8c.exe)
+     Running tests\airway.rs (target\debug\deps\airway-d2a81350da7c4983.exe)
+     Running tests\airway_adversarial.rs (target\debug\deps\airway_adversarial-77e21311882587d0.exe)
+     Running tests\analysis.rs (target\debug\deps\analysis-9334694af5f024a3.exe)
+     Running tests\beat_alloc.rs (target\debug\deps\beat_alloc-54d47cbb282606ab.exe)
+     Running tests\beatbox.rs (target\debug\deps\beatbox-3e662e017ee3b861.exe)
+     Running tests\body_mix.rs (target\debug\deps\body_mix-573501b582373043.exe)
+     Running tests\consonant_artifacts.rs (target\debug\deps\consonant_artifacts-bb4d1c74b44978a2.exe)
+     Running tests\creature_realtime.rs (target\debug\deps\creature_realtime-06e59e9a20e8459b.exe)
+     Running tests\engine.rs (target\debug\deps\engine-ec96f027f998c696.exe)
+     Running tests\english.rs (target\debug\deps\english-d03770e41d3e830a.exe)
+     Running tests\geometry_continuity.rs (target\debug\deps\geometry_continuity-f93a04f62a1c8266.exe)
+     Running tests\golden_analysis.rs (target\debug\deps\golden_analysis-b94a24ad63cee0e4.exe)
+     Running tests\golden_creatures.rs (target\debug\deps\golden_creatures-d3f6e929db9eebc0.exe)
+     Running tests\golden_geometry.rs (target\debug\deps\golden_geometry-23a5b84f1ffe61ce.exe)
+     Running tests\golden_phonetics_text.rs (target\debug\deps\golden_phonetics_text-bd4b796514aaf4c3.exe)
+     Running tests\golden_planning.rs (target\debug\deps\golden_planning-c78b33f63e1a349d.exe)
+     Running tests\golden_voice.rs (target\debug\deps\golden_voice-98b1c09364e9ae3b.exe)
+     Running tests\live_control.rs (target\debug\deps\live_control-b32fa8b04745cb1b.exe)
+     Running tests\sing_fast.rs (target\debug\deps\sing_fast-62e3b22e65cd1fbd.exe)
+     Running tests\speech_quality.rs (target\debug\deps\speech_quality-6a826644242a2faf.exe)
+     Running tests\syllables.rs (target\debug\deps\syllables-f09535aeda2fc856.exe)
+     Running tests\voice_source.rs (target\debug\deps\voice_source-686b4d3ea30e704a.exe)
+     Running unittests src\main.rs (target\debug\deps\chimera-6b19ba77e4458b56.exe)
+     Running tests\cli.rs (target\debug\deps\cli-e4817720f252f96e.exe)
+     Running unittests src\lib.rs (target\debug\deps\chimera_wasm-d35adbdcb0b71e03.exe)
+     Running tests\realtime.rs (target\debug\deps\realtime-b7c8c1507590884d.exe)
+   Doc-tests chimera
+   Doc-tests chimera_wasm
+
+tests\creature-abi.test.ts:
+(pass) creature telemetry through the worklet > every creature's tubes, sources and params arrive with their real sizes [179.52ms]
+
+tests\expression.test.ts:
+(pass) expression > cheeks puff behind shut lips, not for m, t or k [1498.18ms]
+(pass) expression > brows rise on a note well above the recent pitch, and a long note closes the eyes [45.53ms]
+(pass) expression > a slow frame rate keeps time, and a skipped beat step still nods [65.93ms]
+
+tests\live-control.test.ts:
+(pass) worklet ordering > a note scheduled right after a body change plays on the new voice; a stop cancels what came before it [248.18ms]
+(pass) MIDI ownership > one note per pitch across keyboards and channels; unplugging releases; disconnect cancels a pending request [3.46ms]
+
+tests\petting.test.ts:
+(pass) Petting > a second and a half of ordinary wiggling makes it happy: eyes close, hearts float up [0.79ms]
+(pass) Petting > passing over the head once does nothing [0.10ms]
+(pass) Petting > it settles a few seconds after the petting stops, and the hearts finish [1.63ms]
+
+tests\singing-live.test.ts:
+(pass) Sing mode, live keys > each key sings the next syllable at its pitch; legato, melisma and release to silence [1565.46ms]
+(pass) Sing mode, live keys > a soft key breathes less than a hard one [1380.16ms]
+(pass) Sing mode, live keys > a demo still waiting for audio or the dictionary is cancelled by a stop [25.67ms]
+(pass) Sing mode, live keys > a quick next note drops the last one's breath-out; leaving Sing cancels a pending ending [781.82ms]
+(pass) Sing mode, live keys > overlapping endings all stay owned: a stop cancels every one [253.01ms]
+(pass) keys pressed before the audio has started > only the press still down sings, once, and not after the body changed [22.28ms]
+
+tests\tele.test.ts:
+(pass) TeleTrack > reads the header and each frame as a telemetry message [0.52ms]
+(pass) TeleTrack > the frame at a time is the last one recorded by then, clamped to the recording [0.13ms]
+(pass) TeleTrack > refuses a truncated file, another version or another format [0.43ms]
+
+tests\transport.test.ts:
+(pass) Transport > the playhead is the audible time: still where Play was pressed until the output catches up [0.60ms]
+(pass) Transport > tapping Play and Pause quickly never moves the playhead back [0.17ms]
+(pass) Transport > the end comes when it is heard, not when the source finishes rendering [0.13ms]
+(pass) Transport > a seek while playing restarts the source there and bumps the epoch [0.10ms]
+(pass) Transport > audio that can't resume leaves the transport paused where it was [0.09ms]
+(pass) Transport > an interruption while playing pauses it [0.07ms]
+
+tests\wasm-engine.test.ts:
+(pass) wasm engine > requires the built WASM artifact at a native filesystem path [0.03ms]
+(pass) wasm engine > renders the voice scenarios bit-identically to the native build [60167.25ms]
+(pass) wasm engine > gesture records are 272 bytes [0.07ms]
+
+tests\words.test.ts:
+(pass) word spans > a diphthong doesn't shift the words after it [2.70ms]
+(pass) word spans > phrases follow one another, and IPA input is shown as IPA [1.43ms]
+(pass) words said > a token with no sound isn't a word, so the next word keeps its place [0.36ms]
+(pass) the trail at the mouth > a word that comes back after a brief gap stays, a new one sends it off [0.15ms]
+
+ 31 pass
+ 0 fail
+ 725 expect() calls
+Ran 31 tests across 9 files. [66.54s]
