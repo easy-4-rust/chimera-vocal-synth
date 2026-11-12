@@ -1,0 +1,68 @@
+
+running 12 tests
+test constructors_share_the_minimal_safe_factor_and_preserve_usual_rates ... FAILED
+test default_voice_is_stable_at_16000_hz ... FAILED
+test held_voice_8000_hz ... FAILED
+test held_voice_16000_hz ... FAILED
+test held_voice_22050_hz ... FAILED
+DEVICE_RATE fs=24000 rms=0.467507590 reference=0.111675906
+test held_voice_24000_hz ... FAILED
+DEVICE_RATE fs=32000 rms=0.111756760 reference=0.111675906
+test held_voice_32000_hz ... ok
+DEVICE_RATE fs=44100 rms=0.111609875 reference=0.111675906
+test held_voice_44100_hz ... ok
+DEVICE_RATE fs=88200 rms=0.111523140 reference=0.111675906
+test held_voice_88200_hz ... ok
+DEVICE_RATE fs=48000 rms=0.111675906 reference=0.111675906
+test held_voice_48000_hz ... ok
+DEVICE_RATE fs=96000 rms=0.111590171 reference=0.111675906
+test held_voice_96000_hz ... ok
+DEVICE_RATE fs=60000 rms=0.111504666 reference=0.111675906
+test held_voice_60000_hz ... ok
+
+failures:
+
+failures:
+    constructors_share_the_minimal_safe_factor_and_preserve_usual_rates
+    default_voice_is_stable_at_16000_hz
+    held_voice_16000_hz
+    held_voice_22050_hz
+    held_voice_24000_hz
+    held_voice_8000_hz
+
+test result: FAILED. 6 passed; 6 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.82s
+
+
+   Compiling chimera v0.1.0 (<CHECKOUT>\crates\chimera)
+    Finished `test` profile [optimized + debuginfo] target(s) in 0.69s
+     Running tests\device_sample_rates.rs (target\debug\deps\device_sample_rates-7c738cc4cb4bc3f5.exe)
+
+thread 'constructors_share_the_minimal_safe_factor_and_preserve_usual_rates' (61568) panicked at crates\chimera\tests\device_sample_rates.rs:72:9:
+assertion `left == right` failed: Engine at 8000
+  left: 2
+ right: 8
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'default_voice_is_stable_at_16000_hz' (45224) panicked at crates\chimera\tests\device_sample_rates.rs:13:5:
+assertion `left == right` failed: 16000 Hz: non-finite PCM at sample Some(210)
+  left: Some(210)
+ right: None
+
+thread 'held_voice_8000_hz' (63376) panicked at crates\chimera\tests\device_sample_rates.rs:13:5:
+assertion `left == right` failed: 8000 Hz: non-finite PCM at sample Some(109)
+  left: Some(109)
+ right: None
+
+thread 'held_voice_16000_hz' (64400) panicked at crates\chimera\tests\device_sample_rates.rs:13:5:
+assertion `left == right` failed: 16000 Hz: non-finite PCM at sample Some(210)
+  left: Some(210)
+ right: None
+
+thread 'held_voice_22050_hz' (71784) panicked at crates\chimera\tests\device_sample_rates.rs:13:5:
+assertion `left == right` failed: 22050 Hz: non-finite PCM at sample Some(730)
+  left: Some(730)
+ right: None
+
+thread 'held_voice_24000_hz' (75444) panicked at crates\chimera\tests\device_sample_rates.rs:34:5:
+24000 Hz: RMS 0.467507590 must stay within 0.5x..2x of 48 kHz 0.111675906
+error: test failed, to rerun pass `-p chimera --test device_sample_rates`

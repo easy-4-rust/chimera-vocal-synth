@@ -1,5 +1,12 @@
 # CHIMERA Phase 1 接收记录：WP-01 / WP-02
 
+## 最新进度：WP-03 第一批
+
+已完成低采样率 NaN/饱和问题的 RED→GREEN 修复和 Native/WASM/真实 Chrome 定向验证。T027–T029 新增完成，合计 **22/85**；完整接收与发布仍未完成。详见 [WP-03 记录](wp03/README.md)。上游未批量合并，仅选择性回填 186b75a1 的采样率修复。
+
+以下保留的是提交 `1de1c0b87224f872123c57d58ff5a7ef2e701403` 的 WP-01/WP-02 历史快照，其测试数量、未运行项和低采样率状态以该时点为准，当前状态见上面的 WP-03 记录。
+
+
 **状态：仓库治理与资产盘点已完成；完整产品接收仍在进行，尚未达到发布条件。**
 
 本轮延续 `openspec/changes/adopt-chimera-vocal-synth/`，完整保留 Engine、WASM/AudioWorklet、CLI、React UI，不改造声音算法，不合并 main，不发布。证据时间以各 JSON 中的 UTC 时间为准；本轮主要运行发生于 2026-11-10 UTC（北京时间 11 月 11 日）。

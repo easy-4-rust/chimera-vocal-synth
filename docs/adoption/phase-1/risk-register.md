@@ -2,8 +2,8 @@
 
 | ID | 优先级 | 事实/证据等级 | 处置及边界 |
 |---|---|---|---|
-| CHI-001 | P0：发布阻塞 | 上游提交 `186b75a1a8cf22017f68cd8acac8015d29cbf437` 报告并修复低采样率下 NaN/静默无声；已读取源码 diff，属 STATIC_REVIEW + 上游运行报告，本轮尚未复现 | 在隔离修复分支先运行对应失败回归，再评审引入修复；同时检查 Engine、WASM 主线程镜像和 HumanVoice。冻结基线不得声称支持全部设备采样率 |
-| CHI-002 | P1 | 上游比冻结基线多 19 个提交，已执行 Git 差分 | 逐项评审，保持 NOT_MERGED；TSP 评测、新 MusicXML 工具、UI 修改不能算作本 Fork 已具备能力 |
+| CHI-001 | 已修复：限定已测默认路径 | [WP-03](wp03/README.md)：Native 6 个 RED → 12/12 GREEN；WASM 5 个 RED → 5/5 GREEN；Chrome 强制 16/24/48 kHz 回归通过 | 选择性回填上游 186b75a1，三个默认入口统一倍率；不支持性外推到非法/任意采样率、显式低层配置、实体蓝牙设备或正常采样率约 30 秒后中断现象 |
+| CHI-002 | P1 | 上游比冻结基线多 19 个提交，已执行 Git 差分 | 全部保持 NOT_MERGED；仅 186b75a1 的采样率修复选择性回填并独立验证。TSP 评测、新 MusicXML 工具、UI 修改不能算作本 Fork 已具备能力 |
 | CHI-003 | P1 | GitHub 既有分支未保护，可见 rulesets 为空，VERIFIED | 分支政策先落文档；开启保护/必需检查需要单独授权，不把文档当已强制执行 |
 | CHI-004 | P1 | 基线没有 `.github/workflows/`，VERIFIED | WP-07 建立 CI；本轮没有新增或修改远程工作流 |
 | CHI-005 | P1 | 上游禁止随产品分发 CSD/受限 shows；随附许可为 STATIC_REVIEW | 保留独立数据边界和 notices；Duet 接收需权利明确的自有测试样例 |

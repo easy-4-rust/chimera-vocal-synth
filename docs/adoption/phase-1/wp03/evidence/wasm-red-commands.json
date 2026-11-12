@@ -1,0 +1,24 @@
+[
+  {
+    "label": "baseline-wasm-build",
+    "argv": [
+      "D:\\Program Files\\nodejs\\node_modules\\bun\\bin\\bun.exe",
+      "run",
+      "wasm"
+    ],
+    "exit_code": 0,
+    "started_at_utc": "2026-11-12T04:26:25.602830+00:00",
+    "ended_at_utc": "2026-11-12T04:26:25.788517+00:00"
+  },
+  {
+    "label": "wasm-red",
+    "argv": [
+      "D:\\Program Files\\nodejs\\node_modules\\bun\\bin\\bun.exe",
+      "test",
+      "tests/device-sample-rates.test.ts"
+    ],
+    "exit_code": 1,
+    "started_at_utc": "2026-11-12T04:26:25.788517+00:00",
+    "ended_at_utc": "2026-11-12T04:26:28.633445+00:00"
+  }
+]

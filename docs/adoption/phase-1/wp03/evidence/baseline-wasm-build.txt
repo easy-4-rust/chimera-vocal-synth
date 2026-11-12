@@ -1,0 +1,3 @@
+
+$ cargo build -p chimera-wasm --release --target wasm32-unknown-unknown && cp target/wasm32-unknown-unknown/release/chimera_wasm.wasm src/wasm/chimera.wasm
+    Finished `release` profile [optimized] target(s) in 0.07s

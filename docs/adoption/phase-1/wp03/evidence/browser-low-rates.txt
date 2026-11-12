@@ -1,0 +1,3 @@
+BROWSER_RATE 48000 Hz: 24 finite audible telemetry observations, advancing clock
+BROWSER_RATE 16000 Hz: 24 finite audible telemetry observations, advancing clock
+BROWSER_RATE 24000 Hz: 24 finite audible telemetry observations, advancing clock

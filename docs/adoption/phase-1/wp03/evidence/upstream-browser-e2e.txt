@@ -1,0 +1,26 @@
+console errors: none
+[first-key] sing before start: rms 0.2175
+[desktop] load: Engine load 50 %
+[desktop] transcription: /həlˈoʊ | kən ju hˈiɹ mi?/
+[desktop] speech rms then silence 0.1603,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000
+[desktop] sing: next syllable Hel -> there, rms while held 0.2019, then silence 0.0000
+[desktop] sing demo: rms 0.1136 on "breathe", after stop 0.0000
+[desktop] creature Songbird: {"id":"songbird","rms":2.0523178528193485e-8,"call":null,"load":0.3367760768478696}
+[desktop] creature Weddell seal: {"id":"seal","rms":0.11013401050573492,"call":"trill","load":0.7490164474134762}
+[desktop] creature American alligator: {"id":"alligator","rms":0.04208800934237495,"call":"bellow","load":0.6549553486864447}
+[desktop] creature African elephant: {"id":"elephant","rms":0.10689704983453308,"call":"rumble","load":0.45567178598620683}
+[desktop] held key: {"gate":0.9999999999999996,"rms":0.09843508550796724}
+[desktop] beatbox steps 0,1,3,4,6,8,8,9 rms 0.002,0.000,0.000,0.001,0.002,0.000,0.003,0.000
+[desktop] back to play: {"human":true,"creature":false}
+[mobile] load: Engine load 50 %
+[mobile] transcription: /həlˈoʊ | kən ju hˈiɹ mi?/
+[mobile] speech rms then silence 0.1272,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000
+[mobile] sing: next syllable Hel -> there, rms while held 0.1996, then silence 0.0000
+[mobile] sing demo: rms 0.1016 on "breathe", after stop 0.0000
+[mobile] creature Songbird: {"id":"songbird","rms":8.348293352153157e-8,"call":null,"load":0.3762333317112245}
+[mobile] creature Weddell seal: {"id":"seal","rms":0.015773990965158153,"call":"trill","load":0.5477123743703834}
+[mobile] creature American alligator: {"id":"alligator","rms":0.08074535590275482,"call":"bellow","load":0.7501102487829633}
+[mobile] creature African elephant: {"id":"elephant","rms":0.08811786117409472,"call":"rumble","load":0.46648610147254027}
+[mobile] held key: {"gate":0.9999999999999996,"rms":0.08408163850977954}
+[mobile] beatbox steps 0,1,3,4,6,8,8,9 rms 0.002,0.000,0.000,0.001,0.003,0.000,0.001,0.027
+[mobile] back to play: {"human":true,"creature":false}

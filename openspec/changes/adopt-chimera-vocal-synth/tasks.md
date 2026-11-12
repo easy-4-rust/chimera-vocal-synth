@@ -2,7 +2,7 @@
 
 ## Current execution evidence
 
-WP-01 and WP-02 (T001–T019) are complete within their repository-governance and asset-inventory scope. See [task evidence](../../../docs/adoption/phase-1/task-evidence.md), [validation results](../../../docs/adoption/phase-1/verification.md), and [remaining risks](../../../docs/adoption/phase-1/risk-register.md). Runtime acceptance, upstream updates, and release readiness remain open. The 19 newly observed upstream commits have not been merged.
+WP-01 and WP-02 (T001–T019) are complete within their repository-governance and asset-inventory scope. See [task evidence](../../../docs/adoption/phase-1/task-evidence.md), [validation results](../../../docs/adoption/phase-1/verification.md), and [remaining risks](../../../docs/adoption/phase-1/risk-register.md). T027–T029 now have current Windows Native/WASM evidence in [WP-03](../../../docs/adoption/phase-1/wp03/README.md). CHI-001 is selectively backported from upstream 186b75a1; no upstream merge was performed. Other runtime acceptance, upstream updates, and release readiness remain open.
 
 Tasks are checked only after their task-specific evidence is recorded. A completed governance or inventory task is not evidence of full runtime acceptance. Use the status labels VERIFIED, STATIC_REVIEW, NOT_RUN, or BLOCKED in the relevant validation report.
 
@@ -44,9 +44,9 @@ Tasks are checked only after their task-specific evidence is recorded. A complet
 - [ ] T024 Validate human vocal-tract geometry, articulator constraints, and body blending.
 - [ ] T025 Validate IPA tokenization, English G2P, syllabification, gesture planning, and singing planning.
 - [ ] T026 Validate FFT, LPC, YIN, formant/transfer-function analysis, and diagnostics.
-- [ ] T027 Run Native golden tests and record exact counts, failures, and fixture provenance.
-- [ ] T028 Run the real-time allocation tests for render/control paths after initialization.
-- [ ] T029 Run block-size independence and event-timing tests across the documented range.
+- [x] T027 Run Native golden tests and record exact counts, failures, and fixture provenance.
+- [x] T028 Run the real-time allocation tests for render/control paths after initialization.
+- [x] T029 Run block-size independence and event-timing tests across the documented range.
 - [ ] T030 Validate independent Engine instances and concurrent rendering isolation where supported.
 - [ ] T031 Run and record Native performance benchmarks against the upstream baseline methodology.
 - [ ] T032 Build and test on Windows, Linux, and macOS where runners/toolchains are available; record architecture-specific gaps.

@@ -1,0 +1,31 @@
+
+running 12 tests
+test constructors_share_the_minimal_safe_factor_and_preserve_usual_rates ... ok
+test default_voice_is_stable_at_16000_hz ... ok
+DEVICE_RATE fs=16000 rms=0.111998191 reference=0.111675906
+test held_voice_16000_hz ... ok
+DEVICE_RATE fs=8000 rms=0.112377650 reference=0.111675906
+test held_voice_8000_hz ... ok
+DEVICE_RATE fs=22050 rms=0.111881058 reference=0.111675906
+test held_voice_22050_hz ... ok
+DEVICE_RATE fs=32000 rms=0.111756760 reference=0.111675906
+test held_voice_32000_hz ... ok
+DEVICE_RATE fs=24000 rms=0.111585100 reference=0.111675906
+test held_voice_24000_hz ... ok
+DEVICE_RATE fs=44100 rms=0.111609875 reference=0.111675906
+test held_voice_44100_hz ... ok
+DEVICE_RATE fs=96000 rms=0.111590171 reference=0.111675906
+test held_voice_96000_hz ... ok
+DEVICE_RATE fs=88200 rms=0.111523140 reference=0.111675906
+test held_voice_88200_hz ... ok
+DEVICE_RATE fs=48000 rms=0.111675906 reference=0.111675906
+test held_voice_48000_hz ... ok
+DEVICE_RATE fs=60000 rms=0.111504666 reference=0.111675906
+test held_voice_60000_hz ... ok
+
+test result: ok. 12 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.78s
+
+
+   Compiling chimera v0.1.0 (<CHECKOUT>\crates\chimera)
+    Finished `test` profile [optimized + debuginfo] target(s) in 2.16s
+     Running tests\device_sample_rates.rs (target\debug\deps\device_sample_rates-7c738cc4cb4bc3f5.exe)

@@ -1,0 +1,12 @@
+{
+  "observed_at_utc": "2026-11-12T04:33:33.708611+00:00",
+  "os": "Windows-11-10.0.26200-SP0",
+  "arch": "AMD64",
+  "python": "3.12.14",
+  "openspec": "1.14.0",
+  "browser": "157.0.8103.38",
+  "gitguard_and_codeguard": "not found on PATH; explicit Git checks used; nothing installed",
+  "rustc": "rustc 1.99.0 (b940084d7 2026-09-28)\nbinary: rustc\ncommit-hash: b940084d7eb6a299eb4bfeb8e34901bc051e7ac4\ncommit-date: 2026-09-28\nhost: x86_64-pc-windows-msvc\nrelease: 1.99.0\nLLVM version: 23.1.1",
+  "cargo": "cargo 1.99.0 (5f94df478 2026-08-27)",
+  "bun": "1.4.3"
+}

@@ -1,0 +1,78 @@
+diff --git a/AGENTS.md b/AGENTS.md
+index 1d06ad4..b42c69c 100644
+--- a/AGENTS.md
++++ b/AGENTS.md
+@@ -34,0 +35,3 @@ and the CLI) under a React UI. See the README.
++- **The voice must hold at any device sample rate** (a Bluetooth headset runs the page at 16 kHz,
++  and an airway simulated too slowly goes NaN: silence, no error). Check:
++  `cargo test -p chimera --test engine the_voice_holds`.
+diff --git a/crates/chimera-wasm/src/api.rs b/crates/chimera-wasm/src/api.rs
+index 6174d63..46975da 100644
+--- a/crates/chimera-wasm/src/api.rs
++++ b/crates/chimera-wasm/src/api.rs
+@@ -67 +67 @@ fn dispatch(st: &mut State, req: &Value) -> Res {
+-            let m = if fs > 60000.0 { 1.0 } else { 2.0 };
++            let m = chimera::voice::human_voice::oversample_for(fs) as f64;
+diff --git a/crates/chimera/src/engine.rs b/crates/chimera/src/engine.rs
+index 2cfd051..a703c88 100644
+--- a/crates/chimera/src/engine.rs
++++ b/crates/chimera/src/engine.rs
+@@ -18 +18 @@ use crate::phonetics::beatbox::{BeatStep, MAX_SOUND_GESTURES};
+-use crate::voice::human_voice::{HumanVoice, SourcePatch, VoiceTelemetry};
++use crate::voice::human_voice::{HumanVoice, SourcePatch, VoiceTelemetry, oversample_for};
+@@ -69 +69 @@ impl Engine {
+-        let mut v = HumanVoice::new(fs, body.body(), if fs > 60000.0 { 1 } else { 2 });
++        let mut v = HumanVoice::new(fs, body.body(), oversample_for(fs));
+diff --git a/crates/chimera/src/voice/human_voice.rs b/crates/chimera/src/voice/human_voice.rs
+index 9092506..cf1b655 100644
+--- a/crates/chimera/src/voice/human_voice.rs
++++ b/crates/chimera/src/voice/human_voice.rs
+@@ -200,0 +201,9 @@ pub struct HumanVoice {
++/// How many times the airway is oversampled at this output rate: the smallest factor that puts
++/// the simulation above 60 kHz (2× at 44.1 and 48 kHz, 1× at 88.2 and 96 kHz). The tubes keep a
++/// minimum section count, so a lower simulation rate makes the sections shorter than one step of
++/// sound and the airway blows up: at 2× a 16 kHz output (a Bluetooth headset's) went NaN within a
++/// second, and 24 kHz ran at the limiter ceiling (issue #33).
++pub fn oversample_for(fs_out: f64) -> usize {
++    js_max(1.0, (60000.0 / fs_out).floor() + 1.0) as usize
++}
++
+@@ -271 +280 @@ impl HumanVoice {
+-    /// The defaults the browser uses: male body, 2× oversampling below 60 kHz.
++    /// The defaults the browser uses: male body, oversampled by [`oversample_for`].
+@@ -273 +282 @@ impl HumanVoice {
+-        Self::new(fs_out, BODY_MALE, if fs_out > 60000.0 { 1 } else { 2 })
++        Self::new(fs_out, BODY_MALE, oversample_for(fs_out))
+diff --git a/crates/chimera/tests/engine.rs b/crates/chimera/tests/engine.rs
+index 4f29221..6ee60b0 100644
+--- a/crates/chimera/tests/engine.rs
++++ b/crates/chimera/tests/engine.rs
+@@ -87,0 +88,28 @@ fn output_does_not_depend_on_the_host_block_size() {
++
++/// A held "ah" from the start button: two seconds at this output rate, its RMS over the second.
++fn held_voice_rms(fs: f64) -> f64 {
++    let mut e = Engine::new(fs);
++    e.set_gate(1.0);
++    let mut out = vec![0.0f32; 2 * fs as usize];
++    for chunk in out.chunks_mut(128) {
++        e.render(chunk);
++    }
++    let tail = &out[fs as usize..];
++    assert!(tail.iter().all(|x| x.is_finite()), "{fs} Hz: the voice went NaN");
++    (tail.iter().map(|&x| (x as f64) * (x as f64)).sum::<f64>() / tail.len() as f64).sqrt()
++}
++
++#[test]
++fn the_voice_holds_at_a_bluetooth_headsets_sample_rate() {
++    // Issue #33: the browser's context runs at the output device's rate. 2x oversampling put a
++    // 16 kHz device's airway at 32 kHz, below its stable rate: NaN within a second, then silence.
++    // 24 kHz ran at the limiter ceiling. Each rate now sounds like 48 kHz does.
++    let reference = held_voice_rms(48000.0);
++    for fs in [8000.0, 16000.0, 22050.0, 24000.0, 32000.0] {
++        let rms = held_voice_rms(fs);
++        assert!(rms > 0.5 * reference && rms < 2.0 * reference, "{fs} Hz: RMS {rms:.3}, 48 kHz {reference:.3}");
++    }
++    // the usual rates simulate as before (the golden fixtures stand)
++    use chimera::voice::human_voice::oversample_for;
++    assert_eq!([44100.0, 48000.0, 60000.0, 88200.0, 96000.0].map(oversample_for), [2, 2, 2, 1, 1]);
++}

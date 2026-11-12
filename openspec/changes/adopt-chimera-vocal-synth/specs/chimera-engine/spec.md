@@ -1,5 +1,22 @@
 ## ADDED Requirements
 
+### Requirement: Default voice constructors handle validated device sample rates
+
+The default Engine and HumanVoice constructors MUST use one shared oversampling policy that keeps the human airway simulation above 60 kHz for the validated positive finite output rates. The browser's main-thread airway mirror MUST use the same policy and produce matching node counts. Explicit low-level oversampling configuration remains caller-owned.
+
+#### Scenario: Hold a voice at a low output rate
+
+- **GIVEN** a default human voice at 8000, 16000, 22050, 24000, or 32000 Hz
+- **WHEN** it renders a held voice in 128-sample blocks for two seconds
+- **THEN** every sample is finite and the second-second RMS stays between 0.5 and 2 times the corresponding 48000 Hz reference, rather than silently outputting NaN or limiter saturation.
+
+#### Scenario: Preserve inherited normal-rate behavior
+
+- **GIVEN** the default constructors at 44100, 48000, 60000, 88200, and 96000 Hz
+- **WHEN** the oversampling policy is applied
+- **THEN** the factors remain 2, 2, 2, 1, and 1, and the inherited golden suite passes without re-blessing.
+
+
 ### Requirement: Native engine is independently usable
 
 The project MUST provide the CHIMERA acoustic and vocal synthesis engine as a Rust library that can be built and used without a browser runtime.

@@ -1,0 +1,10 @@
+{
+  "branch": "integration/phase-1",
+  "base": "1de1c0b87224f872123c57d58ff5a7ef2e701403",
+  "main": "5ab44de236b0eb384ec4d81ec216e0d0928a9f7a",
+  "remote_heads": "1de1c0b87224f872123c57d58ff5a7ef2e701403\trefs/heads/integration/phase-1\n5ab44de236b0eb384ec4d81ec216e0d0928a9f7a\trefs/heads/main",
+  "protected_assets_diff": "",
+  "changed_tracked_paths": "AGENTS.md\nLOCAL_EXTENSIONS.md\nUPSTREAM_SYNC.md\ncrates/chimera-wasm/src/api.rs\ncrates/chimera/src/engine.rs\ncrates/chimera/src/voice/human_voice.rs\ndocs/adoption/phase-1/README.md\ndocs/adoption/phase-1/risk-register.md\nopenspec/changes/adopt-chimera-vocal-synth/specs/chimera-engine/spec.md\nopenspec/changes/adopt-chimera-vocal-synth/tasks.md",
+  "own_preview_port_closed": true,
+  "checked_tasks": 22
+}

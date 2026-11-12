@@ -1,0 +1,2 @@
+human male os=2: 16.4% of one core in real time (0.44 ms per 128-sample block)
+human male os=1: 7.8% of one core in real time (0.21 ms per 128-sample block)

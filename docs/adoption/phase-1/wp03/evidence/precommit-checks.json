@@ -1,0 +1,36 @@
+{
+  "verified_at_utc": "2026-11-12T04:37:15.121111+00:00",
+  "base": "1de1c0b87224f872123c57d58ff5a7ef2e701403",
+  "branch": "integration/phase-1",
+  "checked_tasks": 22,
+  "task_ids_complete": true,
+  "cargo_final": {
+    "passed": 119,
+    "failed": 0,
+    "ignored": 2
+  },
+  "bun_final": {
+    "passed": 36,
+    "failed": 0
+  },
+  "browser_low_rate_cases": 3,
+  "browser_version": "157.0.8103.38",
+  "inherited_e2e_exit_code": 0,
+  "staged_scope_valid": true,
+  "golden_calibration_lockfiles_unchanged": true,
+  "main_unchanged": true,
+  "new_markdown_links_valid": true,
+  "checksummed_files": 42,
+  "review": "Inline upstream-diff, source and execution-evidence review. No independent approval claimed.",
+  "known_limits": [
+    "explicit low-level oversampling remains caller-owned",
+    "invalid/extreme sample rates not hardened",
+    "no physical-device or long-duration guarantee",
+    "macOS/Linux/ARM64 not tested",
+    "2 inherited ignored tests",
+    "benchmark observations are single-run, not a regression verdict"
+  ],
+  "staged_file_count": 44,
+  "upstream_patch_format": "Exact git show --format= --unified=0 diff; source SHA recorded separately",
+  "git_diff_cached_check_exit_code": 0
+}

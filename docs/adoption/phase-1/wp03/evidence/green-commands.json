@@ -1,0 +1,52 @@
+[
+  {
+    "label": "native-green",
+    "argv": [
+      "cargo",
+      "test",
+      "--locked",
+      "-p",
+      "chimera",
+      "--test",
+      "device_sample_rates",
+      "--",
+      "--nocapture"
+    ],
+    "exit_code": 0,
+    "started_at_utc": "2026-11-12T04:26:54.915758+00:00",
+    "ended_at_utc": "2026-11-12T04:26:58.195581+00:00"
+  },
+  {
+    "label": "full-test",
+    "argv": [
+      "D:\\Program Files\\nodejs\\node_modules\\bun\\bin\\bun.exe",
+      "run",
+      "test"
+    ],
+    "exit_code": 0,
+    "started_at_utc": "2026-11-12T04:26:58.196097+00:00",
+    "ended_at_utc": "2026-11-12T04:28:44.541286+00:00"
+  },
+  {
+    "label": "typecheck",
+    "argv": [
+      "D:\\Program Files\\nodejs\\node_modules\\bun\\bin\\bun.exe",
+      "run",
+      "typecheck"
+    ],
+    "exit_code": 0,
+    "started_at_utc": "2026-11-12T04:28:44.541805+00:00",
+    "ended_at_utc": "2026-11-12T04:28:45.091715+00:00"
+  },
+  {
+    "label": "production-build",
+    "argv": [
+      "D:\\Program Files\\nodejs\\node_modules\\bun\\bin\\bun.exe",
+      "run",
+      "build"
+    ],
+    "exit_code": 0,
+    "started_at_utc": "2026-11-12T04:28:45.092720+00:00",
+    "ended_at_utc": "2026-11-12T04:28:46.866136+00:00"
+  }
+]

@@ -1,5 +1,10 @@
 # 上游同步与分支维护
 
+## WP-03 选择性回填
+
+`186b75a1a8cf22017f68cd8acac8015d29cbf437` 的默认人声采样倍率策略已在接收分支选择性回填，保留上游来源及独立 RED/GREEN。此举不增加上游 ancestry，不代表完整 merge 或 cherry-pick；19 个待审提交仍未批量合入。详细处置见 [WP-03](docs/adoption/phase-1/wp03/README.md)。后文“全部 REVIEW_PENDING”是初始 WP-01 快照，当前该条的采样率修复为 SELECTIVELY_BACKPORTED_VERIFIED，其余内容仍待审。
+
+
 ## 分支职责
 
 `upstream/main` 是原作者源码事实源；`origin/main` 是 Easy-4-Rust 的稳定分支，不能同时把它定义为永不含本地修改的上游镜像。当前阶段它保持未修改，接收完成后的合并另行审批。

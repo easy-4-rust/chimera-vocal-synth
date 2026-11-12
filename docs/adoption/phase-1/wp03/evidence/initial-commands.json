@@ -1,0 +1,36 @@
+[
+  {
+    "label": "native-red",
+    "argv": [
+      "cargo",
+      "test",
+      "--locked",
+      "-p",
+      "chimera",
+      "--test",
+      "device_sample_rates",
+      "--",
+      "--nocapture"
+    ],
+    "exit_code": 101,
+    "started_at_utc": "2026-11-12T04:25:31.507075+00:00",
+    "ended_at_utc": "2026-11-12T04:25:33.303752+00:00"
+  },
+  {
+    "label": "bench-before",
+    "argv": [
+      "cargo",
+      "run",
+      "--release",
+      "--locked",
+      "-q",
+      "-p",
+      "chimera",
+      "--example",
+      "bench"
+    ],
+    "exit_code": 0,
+    "started_at_utc": "2026-11-12T04:25:33.303752+00:00",
+    "ended_at_utc": "2026-11-12T04:25:49.458789+00:00"
+  }
+]

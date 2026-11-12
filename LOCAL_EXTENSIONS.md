@@ -1,5 +1,12 @@
 # Easy-4-Rust 本地变更边界
 
+## WP-03 增量：低设备采样率修复
+
+在 `1de1c0b` 之后，经用户批准先复现再引入上游 186b75a1 修复。只修改 Engine、HumanVoice 默认构造与 WASM 主线程模型的倍率选择，保持默认正常频率输出、原方程、ABI、golden/校准数据和依赖不变。新建 Native、WASM、浏览器定向回归并保留 RED/GREEN。不是全量上游合并；[实现和证据](docs/adoption/phase-1/wp03/README.md)。
+
+下列原接收说明是 WP-01/WP-02 的历史记录；其中“未修改产品源码”“低采样率尚未修复”只描述当时状态。
+
+
 ## 本轮
 
 本轮增加接收治理文档、源码/依赖/资产清单与验证证据，并据证据更新已有 OpenSpec 任务状态。另增加两项有失败测试支撑的跨平台接收修复：`.gitattributes` 将 `*.generated.json` 固定为 LF；`tests/harness.ts` 与 `tests/wasm-engine.test.ts` 使用 `fileURLToPath` 解析本地路径，并增加构建产物存在性回归断言。前者避免 Windows 自动 CRLF 转换导致校准字节比较失败，后者避免 `/E:/...` 无效路径与 Native/WASM 测试被静默跳过。没有新增或修改声音算法、音色参数、Rust/TypeScript 产品源码、React 设计、WASM ABI、golden 数值、校准表 Git blob 和依赖版本。

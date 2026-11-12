@@ -198,6 +198,14 @@ pub struct HumanVoice {
     pub max_penetration: f64,
 }
 
+/// 为有效的正输出采样率选择最小整数倍采样，使人声声道模拟频率严格高于 60 kHz。
+/// 来源：上游 186b75a1（#33）。16 kHz 固定 2 倍采样会失稳，24 kHz 会饱和；
+/// 44.1/48 kHz 仍为 2 倍，88.2/96 kHz 仍为 1 倍，不改变这些频率的既有声音。
+/// 本函数不校验调用方采样率；非法值及未验证范围不属于本次接收支持承诺。
+pub fn oversample_for(fs_out: f64) -> usize {
+    js_max(1.0, (60000.0 / fs_out).floor() + 1.0) as usize
+}
+
 impl HumanVoice {
     /// A voice rendering at `fs_out`, simulating at `fs_out · oversample`.
     pub fn new(fs_out: f64, body: HumanBody, oversample: usize) -> Self {
@@ -268,9 +276,9 @@ impl HumanVoice {
         v
     }
 
-    /// The defaults the browser uses: male body, 2× oversampling below 60 kHz.
+    /// 浏览器默认男声，通过 [`oversample_for`] 保持声道模拟频率。
     pub fn with_defaults(fs_out: f64) -> Self {
-        Self::new(fs_out, BODY_MALE, if fs_out > 60000.0 { 1 } else { 2 })
+        Self::new(fs_out, BODY_MALE, oversample_for(fs_out))
     }
 
     pub fn set_articulation(&mut self, values: &ArticPatch, tip_free: Option<bool>) {

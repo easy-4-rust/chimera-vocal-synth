@@ -1,0 +1,78 @@
+bun test v1.4.3 (c6da4a4d3)
+WASM_DEVICE_RATE fs=24000 rms=0.4675075903546181 reference=0.11167590604563044
+
+
+tests\device-sample-rates.test.ts:
+29 |     for (let at = 0; at < 2 * fs; at += 128) {
+30 |       const n = Math.min(128, 2 * fs - at);
+31 |       const p = x.engine_render(h, n);
+32 |       const samples = new Float32Array(x.memory.buffer, p, n);
+33 |       for (let i = 0; i < n; i++) {
+34 |         if (!Number.isFinite(samples[i])) throw new Error(`${fs} Hz: non-finite WASM PCM at ${at + i}`);
+                                                                                                           ^
+error: 8000 Hz: non-finite WASM PCM at 109
+      at heldRms (<CHECKOUT>\tests\device-sample-rates.test.ts:34:103)
+      at <anonymous> (<CHECKOUT>\tests\device-sample-rates.test.ts:45:17)
+(fail) WASM held voice stays finite and audible at 8000 Hz [581.39ms]
+29 |     for (let at = 0; at < 2 * fs; at += 128) {
+30 |       const n = Math.min(128, 2 * fs - at);
+31 |       const p = x.engine_render(h, n);
+32 |       const samples = new Float32Array(x.memory.buffer, p, n);
+33 |       for (let i = 0; i < n; i++) {
+34 |         if (!Number.isFinite(samples[i])) throw new Error(`${fs} Hz: non-finite WASM PCM at ${at + i}`);
+                                                                                                           ^
+error: 16000 Hz: non-finite WASM PCM at 210
+      at heldRms (<CHECKOUT>\tests\device-sample-rates.test.ts:34:103)
+      at <anonymous> (<CHECKOUT>\tests\device-sample-rates.test.ts:45:17)
+(fail) WASM held voice stays finite and audible at 16000 Hz [670.94ms]
+29 |     for (let at = 0; at < 2 * fs; at += 128) {
+30 |       const n = Math.min(128, 2 * fs - at);
+31 |       const p = x.engine_render(h, n);
+32 |       const samples = new Float32Array(x.memory.buffer, p, n);
+33 |       for (let i = 0; i < n; i++) {
+34 |         if (!Number.isFinite(samples[i])) throw new Error(`${fs} Hz: non-finite WASM PCM at ${at + i}`);
+                                                                                                           ^
+error: 22050 Hz: non-finite WASM PCM at 730
+      at heldRms (<CHECKOUT>\tests\device-sample-rates.test.ts:34:103)
+      at <anonymous> (<CHECKOUT>\tests\device-sample-rates.test.ts:45:17)
+(fail) WASM held voice stays finite and audible at 22050 Hz [708.98ms]
+43 |   test(`WASM held voice stays finite and audible at ${fs} Hz`, () => {
+44 |     const reference = heldRms(48000);
+45 |     const rms = heldRms(fs);
+46 |     console.log(`WASM_DEVICE_RATE fs=${fs} rms=${rms} reference=${reference}`);
+47 |     expect(rms).toBeGreaterThan(0.5 * reference);
+48 |     expect(rms).toBeLessThan(2 * reference);
+                     ^
+error: expect(received).toBeLessThan(expected)
+
+Expected: < 0.22335181209126087
+Received: 0.4675075903546181
+
+      at <anonymous> (<CHECKOUT>\tests\device-sample-rates.test.ts:48:17)
+(fail) WASM held voice stays finite and audible at 24000 Hz [706.26ms]
+60 |       const h = x.engine_new(fs);
+61 |       try {
+62 |         x.engine_set_body(h, body.female, body.child);
+63 |         const p = x.engine_telemetry(h);
+64 |         const head = new Float64Array(x.memory.buffer, p, 16);
+65 |         expect([mirror.nPh, mirror.nOr]).toEqual([expected.nPh, expected.nOr]);
+                                              ^
+error: expect(received).toEqual(expected)
+
+  [
+-   12,
+-   12,
++   8,
++   8,
+  ]
+
+- Expected  - 2
++ Received  + 2
+
+      at <anonymous> (<CHECKOUT>\tests\device-sample-rates.test.ts:65:42)
+(fail) main-thread anatomy mirrors the safe audio-thread topology for all body presets [8.21ms]
+
+ 0 pass
+ 5 fail
+ 3 expect() calls
+Ran 5 tests across 1 file. [2.82s]

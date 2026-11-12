@@ -1,0 +1,24 @@
+[
+  {
+    "label": "full-test-final",
+    "argv": [
+      "D:\\Program Files\\nodejs\\node_modules\\bun\\bin\\bun.exe",
+      "run",
+      "test"
+    ],
+    "exit_code": 0,
+    "started_at_utc": "2026-11-12T04:32:46.794480+00:00",
+    "ended_at_utc": "2026-11-12T04:33:32.990204+00:00"
+  },
+  {
+    "label": "typecheck-precommit",
+    "argv": [
+      "D:\\Program Files\\nodejs\\node_modules\\bun\\bin\\bun.exe",
+      "run",
+      "typecheck"
+    ],
+    "exit_code": 0,
+    "started_at_utc": "2026-11-12T04:33:32.990204+00:00",
+    "ended_at_utc": "2026-11-12T04:33:33.707966+00:00"
+  }
+]

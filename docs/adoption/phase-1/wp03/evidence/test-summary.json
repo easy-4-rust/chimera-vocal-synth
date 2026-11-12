@@ -1,0 +1,57 @@
+{
+  "base": "1de1c0b87224f872123c57d58ff5a7ef2e701403",
+  "upstream_fix": "186b75a1a8cf22017f68cd8acac8015d29cbf437",
+  "cargo_groups": 30,
+  "passed": 119,
+  "failed": 0,
+  "ignored": 2,
+  "bun_summary": [
+    "36 pass",
+    "0 fail"
+  ],
+  "ignored_cases": [
+    "test no_area_jumps_as_a_protruded_lower_lip_tucks ... ignored, known, not yet fixed: run with --ignored. Found by the batch-2 review; already on main (0.30 cm²)",
+    "test calibrate_vowels_reproduces_the_committed_table ... ignored, slow (~100 s): cargo test -p chimera-cli --release -- --ignored"
+  ],
+  "warnings": [
+    "warning: variable does not need to be mutable",
+    "warning: variable does not need to be mutable",
+    "warning: `chimera` (test \"voice_source\") generated 1 warning (run `cargo fix --test \"voice_source\" -p chimera` to apply 1 suggestion)",
+    "warning: `chimera` (test \"golden_planning\") generated 1 warning (run `cargo fix --test \"golden_planning\" -p chimera` to apply 1 suggestion)"
+  ],
+  "golden_cases": [
+    "test math::tests::mulberry32_matches_typescript ... ok",
+    "test engine_plays_the_beatbox_bar_like_the_typescript_worklet ... ok",
+    "test analysis_matches_typescript ... ok",
+    "test defs_serialise_like_typescript ... ok",
+    "test valves_match_typescript ... ok",
+    "test preview_telemetry_serialises_like_typescript ... ok",
+    "test creatures_match_typescript ... ok",
+    "test geometry_matches_typescript ... ok",
+    "test songs_and_vowel_data_match_typescript ... ok",
+    "test ipa_matches_typescript ... ok",
+    "test syllables_match_typescript ... ok",
+    "test phrases_match_typescript ... ok",
+    "test g2p_matches_typescript ... ok",
+    "test klatt_durations_match_typescript ... ok",
+    "test beat_notation_matches_typescript ... ok",
+    "test beat_player_matches_typescript ... ok",
+    "test phrases_match_typescript ... ok",
+    "test live_notes_match_typescript ... ok",
+    "test beat_sounds_match_typescript ... ok",
+    "test songs_match_typescript ... ok",
+    "test utterances_match_typescript ... ok",
+    "test beatbox_bar_audio_matches_typescript ... ok",
+    "test voice_matches_typescript ... ok"
+  ],
+  "allocation_cases": [
+    "test the_beat_player_does_not_allocate ... ok",
+    "test warm_creature_voice_does_not_allocate ... ok",
+    "test the_audio_thread_abi_does_not_allocate ... ok"
+  ],
+  "block_size_cases": [
+    "test output_does_not_depend_on_the_host_block_size ... ok"
+  ],
+  "native_wasm_parity_passed": true,
+  "new_wasm_topology_passed": true
+}

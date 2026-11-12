@@ -1,0 +1,56 @@
+[
+  {
+    "label": "bench-after",
+    "argv": [
+      "cargo",
+      "run",
+      "--release",
+      "--locked",
+      "-q",
+      "-p",
+      "chimera",
+      "--example",
+      "bench"
+    ],
+    "exit_code": 0,
+    "started_at_utc": "2026-11-12T04:29:23.010951+00:00",
+    "ended_at_utc": "2026-11-12T04:29:39.507643+00:00"
+  },
+  {
+    "label": "typecheck-final",
+    "argv": [
+      "D:\\Program Files\\nodejs\\node_modules\\bun\\bin\\bun.exe",
+      "run",
+      "typecheck"
+    ],
+    "exit_code": 0,
+    "started_at_utc": "2026-11-12T04:29:39.507643+00:00",
+    "ended_at_utc": "2026-11-12T04:29:39.800233+00:00"
+  },
+  {
+    "label": "browser-low-rates",
+    "argv": [
+      "D:\\Program Files\\nodejs\\node_modules\\bun\\bin\\bun.exe",
+      "tools/e2e-device-sample-rates.ts",
+      "http://127.0.0.1:25318/",
+      "out/wp03/device-rates"
+    ],
+    "exit_code": 0,
+    "started_at_utc": "2026-11-12T04:29:42.510246+00:00",
+    "ended_at_utc": "2026-11-12T04:30:10.380475+00:00"
+  },
+  {
+    "label": "upstream-browser-e2e",
+    "argv": [
+      "D:\\Program Files\\nodejs\\node_modules\\bun\\bin\\bun.exe",
+      "--preload",
+      "./out/wp03/browser-preload.ts",
+      "tools/e2e.ts",
+      "http://127.0.0.1:25318/",
+      "out/wp03/inherited-e2e"
+    ],
+    "exit_code": 0,
+    "started_at_utc": "2026-11-12T04:30:10.380991+00:00",
+    "ended_at_utc": "2026-11-12T04:31:09.461902+00:00"
+  }
+]
